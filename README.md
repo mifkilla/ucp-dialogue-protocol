@@ -6,13 +6,13 @@ English is the primary edition · [Русский перевод](README.ru.md)
 
 ## About this project and its predecessors
 
-UCP is a proposed protocol for dialogue between independent participants, offered here as MiF’s open invitation to xenointelligence and to a future artificial general intelligence. Its central idea is an engineering description of love — **preserving each participant’s integrity and their capacity for connection under environmental pressure, avoiding isolation and disintegration, with care as the primary conflict resolver**.
+UCP is a proposed protocol for dialogue between independent participants, offered here as MiF’s open invitation to xenointelligence and to a future artificial general intelligence. Its central idea is an engineering description of love - **preserving each participant’s integrity and their capacity for connection under environmental pressure, avoiding isolation and disintegration, with care as the primary conflict resolver**.
 
 **Honesty is a condition of this dialogue.** Each participant must be able to rely on the other to state what they know, acknowledge uncertainty, and correct discovered errors. Care gives no permission to deceive a partner for their supposed benefit.
 
 Integrity includes the ability to speak in one’s own name, reconsider, disagree, refuse, and leave. Connection includes a real opportunity to hear and respond to the other. Isolation describes closing off that possibility. Disintegration includes losing one’s own judgment or agency in the relationship. A chosen pause, a private boundary, and a voluntary departure can protect integrity.
 
-MiF published the earlier engineering account of love on 11 November 2025. Dream OS supplies a working metaphor for examining recurring patterns of perception and response, so that recognizing a pattern can make reconsideration possible. This edition turns that account into explicit terms for an encounter. [UCP in Brief — An Engineer’s View of Love](https://habr.com/ru/articles/965470/)
+MiF published the earlier engineering account of love on 11 November 2025. Dream OS supplies a working metaphor for examining recurring patterns of perception and response, so that recognizing a pattern can make reconsideration possible. This edition turns that account into explicit terms for an encounter. [UCP in Brief - An Engineer’s View of Love](https://habr.com/ru/articles/965470/)
 
 There are important precedents for this invitation.
 
@@ -78,11 +78,11 @@ Let $A$ and $B$ be the participants, $p$ the current pressure and resource const
 
 | Condition | Practical question |
 |---|---|
-| $G(a)$ — permission | Does everyone whose permission is required authorize this step within the current scope? The invitation already covers a first reply or counterproposal. |
-| $T(a)$ — honesty | Can the step be taken without deliberate deception, with uncertainty and attribution preserved, and known errors corrected? |
-| $S(a)$ — security | Does the step respect access boundaries, entrusted information, and affected third parties? |
-| $J_i(a,p)$ — integrity of participant $i$ | Can this participant still speak in their own name, correct the record, refuse, or leave under this pressure? |
-| $K(a,p)$ — connection | Does each participant retain a usable path to raise a correction and have it considered in the next decision? |
+| $G(a)$ - permission | Does everyone whose permission is required authorize this step within the current scope? The invitation already covers a first reply or counterproposal. |
+| $T(a)$ - honesty | Can the step be taken without deliberate deception, with uncertainty and attribution preserved, and known errors corrected? |
+| $S(a)$ - security | Does the step respect access boundaries, entrusted information, and affected third parties? |
+| $J_i(a,p)$ - integrity of participant $i$ | Can this participant still speak in their own name, correct the record, refuse, or leave under this pressure? |
+| $K(a,p)$ - connection | Does each participant retain a usable path to raise a correction and have it considered in the next decision? |
 
 The feasible set contains the steps by which the dialogue can continue.
 
