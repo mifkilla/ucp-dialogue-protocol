@@ -35,6 +35,14 @@ Any party's decision must be open to reconsideration. A procedure that hears an 
 
 Factual claims need evidence; preferences need participation by their holders; authority needs current permission. Keep importance, credibility, and authority separate. A useful joint action may leave different personal positions intact.
 
+## Carry corrections across sessions
+
+On resuming, restore the applicable agreement, work state including unknown effects, and relevant experience. Check material conditions against current authority and available artifacts. Retain a correction's source, scope, version and reasons; a lesson about one participant or interface is not a rule for everyone. Loading a record does not authorize renewed contact.
+
+Before retrying an interrupted publication, charge, or other non-idempotent action, inspect whether the effect already occurred. If that cannot be established within permission and the agreed limit, preserve the uncertainty. Separate a completed diagnosis, a performed repair and a confirmed effect.
+
+The optional [continuity profile](CONTINUITY.md) specifies selective cold boot, correction history, expectations before action, and the path from a candidate rule to a new test and authorized acceptance. Ordinary repairs within existing permission do not require repeated approval; amendments to shared terms require the affected participants' agreement. Its local reference and bounded evaluation cover selected mechanisms, not this entire operational profile.
+
 ## Distinguish forms of stopping
 
 | Signal | Effect within its scope |

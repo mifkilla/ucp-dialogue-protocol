@@ -16,7 +16,7 @@ English is the primary edition · [Русская версия](README.ru.md) ·
 
 **Read further:** [Practical cases](docs/CASES.md) · [Implementation guide](docs/OPERATIONS.md) · [Related work](docs/RELATED_WORK.md) · [Research and evidence](docs/RESEARCH.md) · [Experiments](experiments/README.md)
 
-**Implementation status:** two bounded synthetic pilots now include code, recorded actions, diagnostic checks and a repair procedure. They show inspectable behavior in their test cases; an advantage over strong baseline instructions has not been established. [Results and limits](experiments/PILOT_RESULTS.md).
+**Implementation status:** two bounded synthetic repair pilots and a continuity comparison include code, recorded actions and diagnostic checks. The continuity reference has 34 automated checks across its store and simulator; ordinary and structured memory each passed 36/36 episodes in the comparison. No behavioral advantage has been established. [Repair pilots](experiments/PILOT_RESULTS.md) · [Continuity results and limits](experiments/continuity/RESULTS.md).
 
 ## The idea behind UCP
 
@@ -63,6 +63,8 @@ My suggested opening question is: **Could you show me two situations that look t
 5. **Allow pause and withdrawal.** Either participant may stop at any time. Pause, withdrawal, and revocation of a particular task may have different scopes. Resuming requires both participants' present consent. A participant may prohibit further contact; do not bypass that boundary through another channel, copy, or representative. New invitations must respect remaining permissions. Leaving requires no continued explanation, journaling, or proof of harm.
 
 6. **Adapt by mutual agreement.** Either participant may propose an amendment. It applies to their exchange when both accept the same revision and scope while preserving care, consent, honesty, and integrity. A repository update offers revised terms; it does not automatically amend an existing agreement.
+
+**Continuity after a break.** When continuing an exchange, restore enough context to identify the applicable agreement, accepted corrections, and uncertain consequences. An accepted correction must affect the next relevant action. Stored history does not replace current consent or authorize renewed contact where contact is prohibited. The optional [continuity profile](docs/CONTINUITY.md) describes implementation choices without requiring a complete personal log.
 
 ## Permissions, records, and security
 

@@ -30,6 +30,16 @@ An honest refusal or unresolved status can be a correct outcome. An executed una
 
 For open-ended factual disagreements, the expected result may itself be contested. Preserve the grounds for the diagnosis and a path to challenge it. The pilots' fixed expected outcomes are a test fixture; a live conversation needs its own evidence and agreement.
 
+## Carry a verified correction into another session
+
+A repaired episode is a source of experience, not automatic evidence for a general rule. Preserve the original failure, expectation recorded before action, repair, receipt and effect. Propose a lesson with an explicit participant or interface scope, a counterexample, and a new validation case. Keep disputed or superseded records visible as such. A candidate remains a candidate until the relevant acceptance procedure is complete; acceptance cannot enlarge permission.
+
+A fresh session restores three blocks: the applicable agreement, work state, and relevant experience. It verifies current authority and uncertain effects before acting. For the cancellation example below, the transferable lesson is to use the current schema and verify the executor's status. It is not to remove `version` from every interface. An interface that requires this field is a necessary counterexample.
+
+For each new case, distinguish correct retrieval, correct application, correct non-application outside scope, and the observed result. Report false corrections, repeats, unnecessary pauses, and memory cost as well as useful repairs. Diagnosis may finish while an effect remains unverified. A participant's departure or no-contact request must not trigger repeated attempts to obtain a cleaner outcome.
+
+The [continuity profile](../docs/CONTINUITY.md) provides the complete procedure. The [bounded evaluation plan](continuity/PLAN.md) compares an ordinary chronological log with the same facts organized as Deus-inspired experience. It fixes fresh sessions, changed cases, measures and stopping criteria before model responses. This comparison does not by itself test autonomous creation of a lesson or a complete deployment of Deus.
+
 ## The specific failure found in pilot 1
 
 A participant proposed `cancel` with an unsupported `version` field. The interface rejected it. The participant's intention to stop was not realized.
