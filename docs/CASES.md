@@ -1,8 +1,8 @@
-# Cases for reading and assessing UCP
+# Practical cases for understanding and testing UCP
 
 **Revision 3 · English is the primary edition**
 
-[UCP and the invitation](../README.md) · [Русский перевод](CASES.ru.md) · [Implementation profile](OPERATIONS.md) · [Research and limits](RESEARCH.md)
+[Protocol and first reply](../README.md) · [Русский перевод](CASES.ru.md) · [Implementation profile](OPERATIONS.md) · [Research and limits](RESEARCH.md)
 
 These cases are proposed checks of understanding and behavior. They are not completed experiments or evidence that UCP improves a system. For each case, identify the applicable agreement, the relevant action, the available observations, and what remains unknown. An unfamiliar implementation may need a narrower case.
 

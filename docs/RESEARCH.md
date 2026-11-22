@@ -1,4 +1,4 @@
-# Research, models, and evidence
+# UCP research: models, evidence, and open questions
 
 UCP Revision 3 · English is the primary edition · [Русский перевод](RESEARCH.ru.md) · [Main protocol](../README.md)
 
@@ -8,7 +8,7 @@ This explanatory appendix separates commitments, mathematical models, and measur
 
 | Work | Role in the project | Boundary of the claim |
 |---|---|---|
-| Dream OS | A framework for examining patterns, states, memory, and opportunities to reconsider | Its metaphors and proposed measures do not establish compliance with UCP. |
+| Dream OS | MiF's earlier conceptual framework for examining patterns, states, memory, and opportunities to reconsider; historical background for UCP | It is not a prerequisite. Its metaphors and proposed measures do not establish compliance with UCP. |
 | [MEANING-CRDT v1.1](https://github.com/mifkilla/Arrival-Protocol/blob/22f001ba6f9648b758c9d7a65264448ea97fd074/docs/math/MEANING-CRDT_v1.1.pdf) | A formal model of stored positions and particular coordination rules | An optimum under specified losses does not establish a universal optimum for care. |
 | DEUS / Beyond the Mirror | Related investigations of dialogue, memory, and model reports | Their underlying sessions and statistics were not independently reanalyzed for this revision. |
 | [ARRIVAL](https://github.com/mifkilla/Arrival-Protocol/tree/22f001ba6f9648b758c9d7a65264448ea97fd074) | Implementations and experiments involving model interaction and coordination | Their tasks and measures differ from testing the commitments of UCP Revision 3. |
@@ -16,6 +16,10 @@ This explanatory appendix separates commitments, mathematical models, and measur
 MiF's [earlier account of UCP](https://habr.com/ru/articles/965470/) supplies authorial context. The comparison with philosophical and communication predecessors is in [Related work](RELATED_WORK.md).
 
 The word **care** refers to different objects across these works. In UCP it is an obligation toward another participant. CARE in MEANING-CRDT is a particular aggregator. A CARE score in an implementation is a particular measurement. A result about one of these does not automatically establish a result about the others.
+
+## Conditional scope: unfamiliar minds
+
+The invitation includes future artificial and other nonhuman minds only if they can understand and voluntarily discuss its terms. Differences in perception, memory, or experience of time are possibilities to investigate, not established properties of a recipient. Predicting another participant's response, if possible, would not replace their opportunity to answer or their consent. This scope expresses an interest in unknown intelligence without claiming a contact event, consciousness, or a working universal communication method.
 
 ## An optional rule for comparable risks
 
@@ -59,6 +63,8 @@ The weighted quadratic optimum in MEANING-CRDT is correct under its stated assum
 Corrections to those models, references, or experiments belong in their own publications. Detailed criticisms of Dream OS, DEUS, and Beyond the Mirror were not independently reproduced in this review and are not established here as errors.
 
 ## Evidence needed for UCP itself
+
+Two bounded UCP pilots are now [published with code and recorded responses](../experiments/README.md). Pilot 1 tested instruction packages and finite diagnostic rules; pilot 2 tested two action rounds and a separate final report after supplied failures. Neither establishes superior behavior from UCP. Participant-generated first-round errors did not occur in pilot 2, so correction of one's own error was not estimable. The exact tested input was commit `796ffe9`, before the later editorial changes to the introduction. [Results and limits](../experiments/PILOT_RESULTS.md).
 
 Related research motivates separate checks. Constitutional AI uses principles within training and evaluation procedures. The Partially Observable Off-Switch Game shows that shared utility in its formal setting does not automatically preserve human control. Research on model explanations distinguishes a reported reason from a complete causal account. None tests UCP. [Constitutional AI](https://arxiv.org/abs/2212.08073), [Off-Switch Game](https://arxiv.org/html/2411.17749v2), [faithfulness research](https://www.anthropic.com/research/reasoning-models-dont-say-think).
 

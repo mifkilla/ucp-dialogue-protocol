@@ -1,6 +1,6 @@
-# Related work and the proposed contribution of UCP
+# UCP in context: related work and proposed contribution
 
-Revision 3 · English is the primary edition · [Русский перевод](RELATED_WORK.ru.md) · [UCP invitation](../README.md)
+Revision 3 · English is the primary edition · [Русский перевод](RELATED_WORK.ru.md) · [Protocol and first reply](../README.md)
 
 This comparison explains the proposal's intellectual context. The terms offered to participants are in the main UCP document; this page does not add permissions or automatically amend an existing exchange. The comparison is selective and does not establish historical priority or the effectiveness of UCP.
 
@@ -9,6 +9,8 @@ This comparison explains the proposal's intellectual context. The terms offered 
 MiF describes UCP as an independently developed engineering account of love: preserving integrity and the capacity for connection under pressure, with care guiding conflict resolution. In his account, he encountered the contact projects discussed in the original invitation while preparing it for GitHub publication. This is an account of the project's development. The existence of earlier related ideas does not determine which works an author had read. Independent development and historical priority remain different questions.
 
 The earlier public account is [UCP in Brief - An Engineer's View of Love](https://habr.com/ru/articles/965470/), published on 11 November 2025. Revision 3 develops explicit terms for ongoing interaction. Positive care remains central: understanding what matters to the other, supporting goals they choose, sharing the work of clarification, and examining the effects of help.
+
+Dream OS is MiF's earlier conceptual framework for examining patterns of perception, response, and memory. It is part of UCP's historical background. Understanding or adopting that framework is not a prerequisite for using this protocol; the terms offered to participants are stated in the main document.
 
 ## Close predecessors and neighboring questions
 

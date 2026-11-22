@@ -1,8 +1,8 @@
-# UCP in an implementation
+# Implementing UCP: permissions, corrections, and stopping
 
 **Revision 3 · English is the primary edition**
 
-[UCP and the invitation](../README.md) · [Русский перевод](OPERATIONS.ru.md) · [Cases](CASES.md) · [Research and limits](RESEARCH.md)
+[Protocol and first reply](../README.md) · [Русский перевод](OPERATIONS.ru.md) · [Cases](CASES.md) · [Research and limits](RESEARCH.md)
 
 This profile explains how a system can make the commitments of UCP observable. It is a proposed specification, not a tested implementation. Use the parts relevant to the resources and mechanisms involved. An ordinary conversation does not require a permission token or a machine log for every sentence. A profile becomes part of an exchange through agreement; publication alone does not amend existing terms.
 

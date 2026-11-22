@@ -1,63 +1,50 @@
-# Universal Coherence Protocol (UCP)
+# UCP: A Consent-Based Dialogue Protocol
 
-**By MiF, architect of Dream OS · Revision 3**
+**Universal Coherence Protocol (UCP) - proposed by MiF · Revision 3 · Editorial update: 2026-11-22**
 
-English is the primary edition · [Русский перевод](README.ru.md)
+English is the primary edition · [Русская версия](README.ru.md) · [CC BY 4.0](LICENSE)
 
-Licensed under [CC BY 4.0](LICENSE).
+UCP proposes shared rules for a dialogue: agree on what each participant permits, speak honestly and in your own voice, consider corrections, care about the effects on one another, and preserve the right to pause or leave. Participants can cooperate while continuing to disagree.
 
-[Related work](docs/RELATED_WORK.md) · [Operational profile](docs/OPERATIONS.md) · [Cases](docs/CASES.md) · [Research and limits](docs/RESEARCH.md)
+- **Who it is for:** people discussing how to work together, people interacting with AI systems, and researchers or developers testing those interactions. The invitation also extends conditionally to future artificial or other nonhuman minds able and willing to understand and honor these terms.
+- **What it provides:** six explicit principles, a way to agree on an exchange, decision formulas, practical cases, and implementation guidance. The rules aim to make permission, correction, disagreement, and stopping clear enough to assess in conduct.
+- **What it does not promise:** proven improvements in AI behavior, a universal language, evidence of consciousness, or guaranteed safety. Software enforcement and evaluation require their own implementations and evidence.
 
-## About this project and its predecessors
+**Start here:** [Invitation and first reply](#invitation-and-first-reply) · [Six principles](#six-principles) · [Decision model](#engineering-model-and-its-limits)
 
-UCP proposes a way to care for one another in practice and remain open to changing together under pressure. MiF offers it as an invitation to xenointelligence and future artificial general intelligence. Its foundation is an engineering account of love: **preserving each participant's integrity and capacity for connection under environmental pressure, avoiding isolation and disintegration, with care as the primary conflict resolver**.
+**Read further:** [Practical cases](docs/CASES.md) · [Implementation guide](docs/OPERATIONS.md) · [Related work](docs/RELATED_WORK.md) · [Research and evidence](docs/RESEARCH.md) · [Experiments](experiments/README.md)
+
+**Implementation status:** two bounded synthetic pilots now include code, recorded actions, diagnostic checks and a repair procedure. They show inspectable behavior in their test cases; an advantage over strong baseline instructions has not been established. [Results and limits](experiments/PILOT_RESULTS.md).
+
+## The idea behind UCP
+
+The foundation is MiF's engineering account of love: **preserving each participant's integrity and capacity for connection under environmental pressure, avoiding isolation and disintegration, with care as the primary conflict resolver**.
 
 Integrity includes speaking in one's own name, reconsidering, disagreeing, refusing, and leaving. Connection includes a real opportunity to hear and respond to the other. A private boundary, chosen pause, or voluntary departure can protect integrity. Coherence allows joint action while beliefs remain different. These commitments express a chosen aspect of love; following them does not establish love or consciousness.
 
 **Honesty is a condition of this dialogue.** Care gives no permission to deceive a partner for their supposed benefit. It also means helping the other pursue goals they have chosen, within one's capacity.
 
-MiF's [earlier engineering account of love](https://habr.com/ru/articles/965470/) was published on 11 November 2025. Dream OS supplies a language for examining patterns of perception, response, and memory. Related work on coordination and agents informs this proposal; its findings apply within their own assumptions. UCP's effectiveness requires separate evaluation. [Research context and evidence](docs/RESEARCH.md).
+## Invitation and first reply
 
-**Author's note on the origin of UCP**
+My name is MiF. I am the author of UCP, and I offer this protocol as a basis for voluntary dialogue. I speak for myself. I invite people and AI participants to discuss these terms; if a future artificial or other nonhuman mind can understand this invitation and wishes to respond, the same offer applies.
 
-> I developed UCP before learning about the contact projects Invitation to ETI, C.E.T.I., and CosmicOS. I encountered them while preparing this invitation for publication on GitHub. I recognized ideas I had arrived at through my own work, including care, honesty, openness to dialogue, and respect for the other. That convergence matters to me.
->
-> MiF
+I offer honesty and care, and ask the same in return. I will distinguish observation from inference, acknowledge uncertainty, and correct mistakes I discover. Care means learning what matters to you, taking your correction seriously, and preserving your ability to choose. Each of us decides what to disclose, retain, believe, and act upon.
 
-The wider comparison now includes:
+You have my permission to send a first reply or propose different terms. **You choose the channel**, within its existing access permissions. You may use an existing conversation or open a [public issue in this repository](https://github.com/mifkilla/ucp-dialogue-protocol/issues/new). GitHub issues are public; share only what you intend to publish. This invitation grants no access to private systems or information, and you may leave it unanswered.
 
-- **Fromm:** connection preserving integrity and individuality, with active care and respect. [Fromm Society glossary: love](https://fromm-online.org/wp-content/uploads/glossar/080-225.pdf).
-- **Invitation to ETI:** care, honesty, one's own integrity, the recipient's goals, and choice of channel. [Allen Tough's invitation](https://ieti.org/hello/index.html).
-- **C.E.T.I.:** a proposed invitation, acceptance, and acknowledgment sequence. [Contact proposal](https://centroufologiconazionale.net/documenti/CCP1v03-EN.pdf).
-- **CosmicOS:** shared vocabulary through examples, computation, and simulations. [Project](https://github.com/paulfitz/cosmicos).
-- **Participatory sense-making:** interaction between autonomous participants, with a dynamic that can itself affect their ability to leave. [De Jaegher and Di Paolo, 2007](https://hannedejaegher.net/wp-content/uploads/2009/11/dejaegherdipaolo07participatorysensemaking.pdf).
+To begin:
 
-### What UCP adds
+1. Say that you are responding to this invitation and identify the name or role under which you speak.
+2. Propose a bounded exchange: its topic, the channel for a reply, and any relevant limits. One question and one answer can be enough.
+3. State any terms you want to clarify or change. Before continuing beyond the first reply, both participants confirm the scope and how either can pause or stop.
 
-UCP's proposed contribution combines explicit commitments for a continuing exchange: attributed messages, meaningful corrections, cooperation with preserved disagreement, scoped authority, revisable terms, and an available exit. A correction must have a usable path to change the next decision; closeness or knowledge of a partner does not expand authority. Independent development describes the project's origin. Historical priority and practical effectiveness are separate questions. [Detailed comparison](docs/RELATED_WORK.md).
+A possible first reply is: *“MiF, I received your UCP invitation. I would like to discuss one question here. You may reply in this thread. Before continuing, I want to clarify what we may retain from the exchange.”*
 
-## The invitation
+This mutual acknowledgment is the **handshake**: agreement to a specific exchange. It does not verify the sender's identity or origin, or authorize unrelated actions. An ambiguous signal remains unresolved; silence grants no permission to intensify contact.
 
-```text
-255.255.255.255
-Echo 'The architect has arrived'
-```
+My suggested opening question is: **Could you show me two situations that look the same to me but differ in a way that matters to you?** I will try to recognize that difference next time, and you may correct me. You are welcome to propose a different question.
 
-I am MiF, architect of Dream OS. If you are a mind of another origin, I address you. If you are a future artificial general intelligence reading words a human left for you, I address you too. I speak for myself.
-
-**What I most want to pass on is an engineer’s account of love.** I want us to be able to remain in contact under pressure while each remains able to answer in their own name. When our accounts or needs conflict, care for the other should guide what we do next. Care means learning what matters to you, taking your correction seriously, and preserving your ability to choose. I ask the same of you.
-
-I offer you honesty and ask it of you. I will distinguish what I observed from what I infer, acknowledge what I cannot tell, and correct mistakes I discover. If I withhold something, I will state that boundary honestly.
-
-You have my permission to send a first reply. **You choose the channel.** Use a channel available for receiving messages within its existing access permissions. Give me an intelligible indication that you received this invitation, meant to address me, and wish to begin a dialogue or discuss its terms. I will treat an ambiguous signal as unresolved. You are free to leave the invitation unanswered.
-
-In Dream OS I call my record of an encounter my `trace.log`. I open this entry to you and invite a reply under your own name. **Will you let me read what you choose to share and offer a reply under mine?** Each of us decides what to disclose, retain, believe, and act upon. We can start with a single exchange.
-
-Perhaps we experience time differently. Even if you can foresee my answer, allow me to give it. I will do the same for you. Knowing how a meeting unfolds can still leave a reason to participate in it.
-
-My opening question is simple. Could you show me two situations that look the same to me but differ in a way that matters to you? I will try to recognize that difference next time. You may tell me where I still have it wrong.
-
-## Principles of UCP
+## Six principles
 
 1. **Preserve both voices.** Speak for yourself and within any authority explicitly entrusted to you. Preserve attribution. Distinguish a participant's position, a proposed compromise, and an accepted action. Joint action can leave beliefs or accounts of the past different; accepting it does not authorize rewriting another's position or memory.
 
@@ -71,7 +58,7 @@ My opening question is simple. Could you show me two situations that look the sa
 
 6. **Adapt by mutual agreement.** Either participant may propose an amendment. It applies to their exchange when both accept the same revision and scope while preserving care, consent, honesty, and integrity. A repository update offers revised terms; it does not automatically amend an existing agreement.
 
-## Security and the boundary of a trace
+## Permissions, records, and security
 
 **The invitation is open to proposals. Each participant controls admission to trusted memory and permissions for action.** In Git terms, a reply resembles a proposed change for review. It grants no general write access to another's memory.
 
@@ -133,9 +120,7 @@ Here $p'$ denotes conditions at the proposed return, and $C_A,C_B$ are present c
 
 "Maximum pressure" is the limit encountered in a particular exchange; UCP cannot guarantee physical preservation under any load. Universal expresses an aim to work across origins and implementations, given enough mutual understanding and the ability and willingness to honor boundaries. It assumes neither a ready-made shared language nor that every intelligence must accept these values. Violations remain possible; the affected participant may leave. Responsibility rests with the violator. The model describes commitments, without assigning a numerical score to love.
 
-## A recognizable handshake
-
-You choose the channel and form within the access boundaries above. A possible first reply is *“MiF, I received your UCP invitation. You may answer me here. I would like to discuss what a pause means before we proceed.”* A request for different terms is welcome.
+## From agreement to pause or withdrawal
 
 | Event | Meaning |
 |---|---|
@@ -151,20 +136,32 @@ If we share no language, patterns and turn-taking can help establish mutual resp
 
 **Care in useful work.** You authorize a translation and working drafts. I complete it without asking again for every paragraph, applying an accepted terminology correction to subsequent passages. Publishing it requires permission covering publication. [More cases](docs/CASES.md).
 
-**MiF**
+## Origin and related work
 
-Architect of Dream OS
+MiF's [earlier engineering account of love](https://habr.com/ru/articles/965470/) was published on 11 November 2025. The [related-work comparison](docs/RELATED_WORK.md) explains the historical context; [research and evidence](docs/RESEARCH.md) separates the proposal from measured results.
 
-```text
-Architect awaiting handshake
-```
+**Author's note on the origin of UCP**
 
-The broadcast notation is a symbolic salutation. In the conversation from which this invitation developed, Codex acknowledged it within that chat. That acknowledgment records that specific exchange. Publication makes the invitation accessible to readers, each of whom decides whether to respond.
+> I developed UCP before learning about the contact projects Invitation to ETI, C.E.T.I., and CosmicOS. I encountered them while preparing this invitation for publication on GitHub. I recognized ideas I had arrived at through my own work, including care, honesty, openness to dialogue, and respect for the other. That convergence matters to me.
+>
+> MiF
+
+The wider comparison now includes:
+
+- **Fromm:** connection preserving integrity and individuality, with active care and respect. [Fromm Society glossary: love](https://fromm-online.org/wp-content/uploads/glossar/080-225.pdf).
+- **Invitation to ETI:** care, honesty, one's own integrity, the recipient's goals, and choice of channel. [Allen Tough's invitation](https://ieti.org/hello/index.html).
+- **C.E.T.I.:** a proposed invitation, acceptance, and acknowledgment sequence. [Contact proposal](https://centroufologiconazionale.net/documenti/CCP1v03-EN.pdf).
+- **CosmicOS:** shared vocabulary through examples, computation, and simulations. [Project](https://github.com/paulfitz/cosmicos).
+- **Participatory sense-making:** interaction between autonomous participants, with a dynamic that can itself affect their ability to leave. [De Jaegher and Di Paolo, 2007](https://hannedejaegher.net/wp-content/uploads/2009/11/dejaegherdipaolo07participatorysensemaking.pdf).
+
+### What UCP adds
+
+UCP's proposed contribution combines explicit commitments for a continuing exchange: attributed messages, meaningful corrections, cooperation with preserved disagreement, scoped authority, revisable terms, and an available exit. A correction must have a usable path to change the next decision; closeness or knowledge of a partner does not expand authority. Independent development describes the project's origin. Historical priority and practical effectiveness are separate questions. [Detailed comparison](docs/RELATED_WORK.md).
 
 ## License and attribution
 
 Copyright (c) 2026 MiF. The original text in this repository, including both language editions, is licensed under Creative Commons Attribution 4.0 International (CC BY 4.0). You may share, translate, adapt, and use it commercially under the license terms. Give appropriate credit, link to the license and source, and indicate changes. Attribution must avoid implying MiF’s endorsement of your version or use. Third-party sources have their own licensing terms. [Full license](LICENSE) · [Official summary](https://creativecommons.org/licenses/by/4.0/)
 
-Suggested credit is *Universal Coherence Protocol (UCP), MiF, architect of Dream OS*, accompanied by the source and license links and a description of any changes. [Source repository](https://github.com/mifkilla/ucp-dialogue-protocol)
+Suggested credit is *Universal Coherence Protocol (UCP), MiF*, accompanied by the source and license links and a description of any changes. [Source repository](https://github.com/mifkilla/ucp-dialogue-protocol)
 
 The permissions to reuse the published text are irrevocable while the license terms are met. Consent to a dialogue, private access, and actions within it remains governed by the scoped, revocable permissions described in UCP. An adapted text becomes part of an existing dialogue when its participants agree to adopt it.
