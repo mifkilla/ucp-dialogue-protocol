@@ -2,6 +2,8 @@
 
 UCP Revision 3 · English is the primary edition · [Русский перевод](RESEARCH.ru.md) · [Main protocol](../README.md)
 
+Current evidence: [project status](STATUS.md) · [final integration results](../experiments/final/RESULTS.md). The bounded testing phase is complete; additional behavioral benefit was not established.
+
 This explanatory appendix separates commitments, mathematical models, and measured behavior. It adds no permission to an exchange. UCP expresses MiF's engineering account of love through proposed obligations; evidence that a particular implementation meets them requires its own evaluation.
 
 ## How the related work fits together

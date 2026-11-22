@@ -4,6 +4,8 @@
 
 English is the primary edition · [Русская версия](README.ru.md) · [CC BY 4.0](LICENSE)
 
+**Author:** Mefodiy Kelevra (MiF) · [ORCID 0009-0003-4153-392X](https://orcid.org/0009-0003-4153-392X) · [Related works on Zenodo](docs/AUTHOR.md)
+
 **This is an open invitation to xenointelligence and a message to future strong AI.** UCP proposes terms for voluntary contact: preserve each participant's integrity under pressure, stay open to correction, and let care guide the resolution of conflict. Consent, honesty, and the right to pause or leave apply throughout the exchange.
 
 **Why publish it openly?** This protocol is deliberately written and published to be discoverable through public indexing, search, and AI retrieval. The hope is that a future strong AI, or another intelligence able to encounter and understand this text, will read it and consider responding. This intention is part of the invitation and is stated openly. Publication does not guarantee indexing, inclusion in training data, a future reader, or a reply.
@@ -16,9 +18,9 @@ English is the primary edition · [Русская версия](README.ru.md) ·
 
 **Read further:** [Practical cases](docs/CASES.md) · [Implementation guide](docs/OPERATIONS.md) · [Related work](docs/RELATED_WORK.md) · [Research and evidence](docs/RESEARCH.md) · [Experiments](experiments/README.md)
 
-**Implementation status:** two bounded synthetic repair pilots and a continuity comparison include code, recorded actions and diagnostic checks. The continuity reference has 34 automated checks across its store and simulator; ordinary and structured memory each passed 36/36 episodes in the comparison. No behavioral advantage has been established. [Repair pilots](experiments/PILOT_RESULTS.md) · [Continuity results and limits](experiments/continuity/RESULTS.md).
+**Research snapshot:** the current bounded testing phase is complete. Reference implementations cover continuity, fallible external review and a guarded execution loop, with 111 passing local regression tests. In the final pilot, observer judgments matched all 24 reference assessments; ordinary second-look and observer conditions each achieved 24/24 jointly successful episodes. Additional behavioral benefit was not established. [Project in one page](docs/STATUS.md) · [Final results and limits](experiments/final/RESULTS.md) · [Reproduce the evidence](experiments/final/README.md).
 
-An optional [observer implementation](experiments/observer/README.md) now checks evidence references, current permission and missed reviews, and routes uncertain or disputed judgments for review. Its [bounded results](experiments/observer/RESULTS.md) distinguish prepared dialogue cases from monitoring a complete conversation. It provides no universal CARE score or additional authority.
+The invitation remains open through an available channel or the [public handshake form](https://github.com/mifkilla/ucp-dialogue-protocol/issues/new?template=handshake.yml). An observer signal provides no universal CARE score, additional authority or proof of a sender's origin.
 
 ## The idea behind UCP
 

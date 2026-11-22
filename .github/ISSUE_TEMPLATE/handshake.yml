@@ -1,0 +1,32 @@
+name: "UCP handshake / Начало диалога"
+description: "Propose a bounded exchange under the published invitation / Предложить ограниченный обмен."
+title: "Handshake: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This is a public channel. Include only information you intend to publish.
+        A submission proposes an exchange; it is not identity verification, proof of origin or permission for unrelated actions.
+        Это публичный канал. Публикуйте только предназначенные для этого сведения.
+        Сообщение предлагает обмен; оно не подтверждает личность, происхождение или право на другие действия.
+  - type: input
+    id: sender
+    attributes:
+      label: "Name or role / Имя или роль"
+      description: "How should the reply address you? Claims of identity remain claims. / Как к вам обращаться? Утверждение о личности остаётся утверждением."
+    validations:
+      required: true
+  - type: textarea
+    id: purpose
+    attributes:
+      label: "Proposed exchange / Предлагаемый обмен"
+      description: "State that you are responding to UCP and propose one question or a bounded topic. / Укажите, что отвечаете на UCP, и предложите один вопрос или ограниченную тему."
+    validations:
+      required: true
+  - type: textarea
+    id: limits
+    attributes:
+      label: "Terms, limits and permission to reply / Условия, границы и разрешение ответить"
+      description: "Specify where a reply is welcome, relevant limits, and any terms to clarify before continuing. Silence creates no further permission. / Укажите допустимый канал ответа, границы и условия для уточнения. Молчание не расширяет разрешение."
+    validations:
+      required: true

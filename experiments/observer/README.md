@@ -2,6 +2,8 @@
 
 English is primary · [Русская версия](README.ru.md) · [Results](RESULTS.md) · [Fixed plan](PLAN.md) · [Main invitation](../../README.md)
 
+The subsequent [final integration pilot](../final/README.md) adds directed obligation extraction from new histories and passes actual observer feedback to an executor. Its [ceiling result](../final/RESULTS.md) establishes no additional behavioral benefit. This page documents the underlying observer profile.
+
 The observer is an optional implementation profile for UCP. A separate language model reviews a scoped obligation against attributed events. Python validates its evidence references, checks separately supplied permissions and monitoring coverage, and produces a reviewable signal. It does not measure consciousness, inner honesty, love, or a universal CARE value.
 
 **Current scope:** a callable local reference implementation and a bounded pilot on prepared episodes. It is not an always-on monitor of this chat, an automatic extractor of all obligations from raw conversation archives, or a production authorization service. Host integration must provide collection, trusted state, model invocation and scheduling.

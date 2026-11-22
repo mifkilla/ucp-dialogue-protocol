@@ -2,7 +2,9 @@
 
 English is the primary edition · [Русская версия](README.ru.md) · [Main protocol](../README.md)
 
-This directory contains two small repair pilots, a continuity comparison and an external observer pilot. They examine observable behavior in synthetic tasks and selected anonymized historical reconstructions. Their results do not establish general effectiveness, consciousness, or reliability across models and environments.
+This directory contains two small repair pilots, a continuity comparison, an external observer pilot and a final integration pilot. They examine observable behavior in synthetic tasks and selected anonymized historical reconstructions. Their results do not establish general effectiveness, consciousness, or reliability across models and environments.
+
+**Final snapshot:** [results](final/RESULTS.md) · [implementation and reproduction](final/README.md) · [fixed plan](final/PLAN.md) · [evidence archive](data/final-05.zip). Two observers extracted obligations from new histories; four executors received either ordinary second-look instructions or actual observer feedback. Both conditions passed 24/24 episodes. Added value was not established. The bounded testing phase is complete; the main invitation remains open. [Project status](../docs/STATUS.md).
 
 **Observer study:** [implementation and commands](observer/README.md) · [results](observer/RESULTS.md) · [fixed plan](observer/PLAN.md) · [evidence archive](data/observer-04.zip). Two fresh sessions review the same 24 synthetic and six historical cases. Evidence attribution, semantic judgment, monitoring coverage and fixed repair replay are evaluated separately.
 

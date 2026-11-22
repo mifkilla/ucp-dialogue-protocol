@@ -2,6 +2,8 @@
 
 [Русская версия](DEBUGGING.ru.md) · [Experiments](README.md) · [Results and limits](PILOT_RESULTS.md)
 
+Completed follow-up: [final observer-to-action integration](final/RESULTS.md), with actual reviewer feedback, guarded actions and checked final claims. Both conditions reached 24/24 joint successes; added value was not established.
+
 This operational profile turns an agreed obligation into a checkable incident. It does not assign a score to love or infer a participant's hidden intentions. The accompanying pilots implement selected checks in a synthetic environment.
 
 ## A bounded repair cycle

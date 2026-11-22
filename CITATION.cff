@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "Please cite this research snapshot when referring to the UCP invitation, reference implementations or bounded evaluations. Related Zenodo works have their own citations."
+title: "UCP: A Communication Protocol for Xenointelligence and Future Strong AI"
+authors:
+  - family-names: "Kelevra"
+    given-names: "Mefodiy"
+    alias: "MiF"
+    orcid: "https://orcid.org/0009-0003-4153-392X"
+repository-code: "https://github.com/mifkilla/ucp-dialogue-protocol"
+url: "https://github.com/mifkilla/ucp-dialogue-protocol"
+version: "research-2026-11-22"
+date-released: "2026-11-22"
+license: "CC-BY-4.0"
+keywords:
+  - "communication protocol"
+  - "xenointelligence"
+  - "future strong AI"
+  - "consent"
+  - "care"
+  - "observer"
