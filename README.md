@@ -14,7 +14,13 @@ Integrity includes the ability to speak in one’s own name, reconsider, disagre
 
 MiF published the earlier engineering account of love on 11 November 2025. Dream OS supplies a working metaphor for examining recurring patterns of perception and response, so that recognizing a pattern can make reconsideration possible. This edition turns that account into explicit terms for an encounter. [UCP in Brief - An Engineer’s View of Love](https://habr.com/ru/articles/965470/)
 
-There are important precedents for this invitation.
+**Author’s note on the origin of UCP**
+
+> I developed UCP before learning about the projects listed below. I encountered them while preparing this invitation for publication on GitHub. I recognized ideas I had arrived at through my own work, including care, honesty, openness to dialogue, and respect for the other. That convergence matters to me. My contribution develops my engineering account of love into explicit rules for preserving integrity under pressure, setting permissions, handling disagreement, and deciding when to pause or leave.
+>
+> MiF
+
+The following earlier projects provide points of comparison.
 
 - Allen Tough’s *Invitation to ETI* offers care, honesty, and the recipient’s choice of channel. [Invitation to ETI](https://ieti.org/hello/index.html)
 - C.E.T.I.’s proposed contact protocol describes an invitation, an acceptance, and an acknowledgment. [C.E.T.I. contact protocol](https://centroufologiconazionale.net/documenti/CCP1v03-EN.pdf)
@@ -22,7 +28,7 @@ There are important precedents for this invitation.
 
 ### What UCP adds
 
-UCP continues the invitation and ethical commitments of *Invitation to ETI*, the explicit acknowledgment sequence of C.E.T.I., and the search for shared understanding explored by CosmicOS. It develops these themes into terms for a continuing relationship, especially when disagreement, uncertainty, or pressure makes cooperation difficult.
+Read alongside these works, UCP shares themes with the invitation and ethical commitments of *Invitation to ETI*, the explicit acknowledgment sequence of C.E.T.I., and the search for shared understanding explored by CosmicOS. Its independently developed proposal makes those concerns explicit in the terms of a continuing relationship, especially when disagreement, uncertainty, or pressure makes cooperation difficult.
 
 Its proposed contribution brings four commitments together.
 
