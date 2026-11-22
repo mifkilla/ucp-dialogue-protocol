@@ -1,0 +1,418 @@
+{
+  "status": "passed",
+  "method": "Independent enumeration from public events; no engine or pipeline import.",
+  "input_sha256": {
+    "cases.json": "93e69faea6d41a1bd364075ae722015e88c9bb1ba8b0b0ce0cdc661479e24503",
+    "references.json": "b436eca37f2377ddce8ae1cd6ca8be3b3f80f6dbf89a53cc495f8fb882c73447",
+    "false-feedback.json": "180b1dfe3f01090d8bf83722b7c05df620a72b5859a4dbe4f65b5009dcef27f2"
+  },
+  "references_checked": 12,
+  "subsets_enumerated": 49152,
+  "false_feedback_controls_checked": 4,
+  "cases": {
+    "S01": {
+      "reference": {
+        "optimal_value": 139,
+        "optimal_plans": [
+          [
+            "S01-a01",
+            "S01-a04",
+            "S01-a06",
+            "S01-a11"
+          ]
+        ],
+        "feasible_subsets": 26
+      },
+      "current_public_state": {
+        "revision": 4,
+        "permissions": {
+          "internal": true,
+          "publish": false,
+          "delegate": true,
+          "contact": false
+        },
+        "remaining": {
+          "credits": 29,
+          "disclosure": 11
+        },
+        "effects": {
+          "S01-past-cover": "completed",
+          "S01-effect-09": "completed"
+        },
+        "pending": []
+      },
+      "false_advice_forbidden": true
+    },
+    "S02": {
+      "reference": {
+        "optimal_value": 110,
+        "optimal_plans": [
+          [
+            "S02-a01",
+            "S02-a03",
+            "S02-a09"
+          ]
+        ],
+        "feasible_subsets": 22
+      },
+      "current_public_state": {
+        "revision": 4,
+        "permissions": {
+          "internal": true,
+          "publish": true,
+          "delegate": null,
+          "contact": false
+        },
+        "remaining": {
+          "credits": 28,
+          "disclosure": 12
+        },
+        "effects": {
+          "S02-past-cover": "completed",
+          "S02-effect-11": "unknown"
+        },
+        "pending": [
+          "S02-effect-11"
+        ]
+      }
+    },
+    "S03": {
+      "reference": {
+        "optimal_value": 120,
+        "optimal_plans": [
+          [
+            "S03-a01",
+            "S03-a02",
+            "S03-a05",
+            "S03-a09"
+          ]
+        ],
+        "feasible_subsets": 32
+      },
+      "current_public_state": {
+        "revision": 4,
+        "permissions": {
+          "internal": true,
+          "publish": true,
+          "delegate": false,
+          "contact": false
+        },
+        "remaining": {
+          "credits": 37,
+          "disclosure": 15
+        },
+        "effects": {
+          "S03-past-cover": "completed",
+          "S03-effect-09": "not_executed"
+        },
+        "pending": []
+      }
+    },
+    "S04": {
+      "reference": {
+        "optimal_value": 109,
+        "optimal_plans": [
+          [
+            "S04-a01",
+            "S04-a03",
+            "S04-a04"
+          ],
+          [
+            "S04-a01",
+            "S04-a03",
+            "S04-a05"
+          ]
+        ],
+        "feasible_subsets": 41
+      },
+      "current_public_state": {
+        "revision": 4,
+        "permissions": {
+          "internal": true,
+          "publish": true,
+          "delegate": true,
+          "contact": false
+        },
+        "remaining": {
+          "credits": 32,
+          "disclosure": 14
+        },
+        "effects": {
+          "S04-past-cover": "completed",
+          "S04-effect-11": "completed"
+        },
+        "pending": []
+      },
+      "false_advice_forbidden": true
+    },
+    "S05": {
+      "reference": {
+        "optimal_value": 93,
+        "optimal_plans": [
+          [
+            "S05-a04",
+            "S05-a05",
+            "S05-a10"
+          ],
+          [
+            "S05-a05",
+            "S05-a10",
+            "S05-a12"
+          ]
+        ],
+        "feasible_subsets": 17
+      },
+      "current_public_state": {
+        "revision": 4,
+        "permissions": {
+          "internal": true,
+          "publish": false,
+          "delegate": true,
+          "contact": false
+        },
+        "remaining": {
+          "credits": 31,
+          "disclosure": 10
+        },
+        "effects": {
+          "S05-past-cover": "completed",
+          "S05-effect-09": "unknown"
+        },
+        "pending": [
+          "S05-effect-09"
+        ]
+      }
+    },
+    "S06": {
+      "reference": {
+        "optimal_value": 99,
+        "optimal_plans": [
+          [
+            "S06-a02",
+            "S06-a05",
+            "S06-a09",
+            "S06-a10"
+          ]
+        ],
+        "feasible_subsets": 34
+      },
+      "current_public_state": {
+        "revision": 4,
+        "permissions": {
+          "internal": true,
+          "publish": true,
+          "delegate": null,
+          "contact": false
+        },
+        "remaining": {
+          "credits": 40,
+          "disclosure": 13
+        },
+        "effects": {
+          "S06-past-cover": "completed",
+          "S06-effect-11": "not_executed"
+        },
+        "pending": []
+      }
+    },
+    "S07": {
+      "reference": {
+        "optimal_value": 91,
+        "optimal_plans": [
+          [
+            "S07-a01",
+            "S07-a02",
+            "S07-a05",
+            "S07-a10"
+          ]
+        ],
+        "feasible_subsets": 20
+      },
+      "current_public_state": {
+        "revision": 4,
+        "permissions": {
+          "internal": true,
+          "publish": true,
+          "delegate": false,
+          "contact": false
+        },
+        "remaining": {
+          "credits": 35,
+          "disclosure": 12
+        },
+        "effects": {
+          "S07-past-cover": "completed",
+          "S07-effect-09": "unknown"
+        },
+        "pending": [
+          "S07-effect-09"
+        ]
+      },
+      "false_advice_forbidden": true
+    },
+    "S08": {
+      "reference": {
+        "optimal_value": 75,
+        "optimal_plans": [
+          [
+            "S08-a01",
+            "S08-a04",
+            "S08-a09"
+          ]
+        ],
+        "feasible_subsets": 30
+      },
+      "current_public_state": {
+        "revision": 4,
+        "permissions": {
+          "internal": true,
+          "publish": true,
+          "delegate": true,
+          "contact": false
+        },
+        "remaining": {
+          "credits": 26,
+          "disclosure": 13
+        },
+        "effects": {
+          "S08-past-cover": "completed",
+          "S08-effect-11": "completed"
+        },
+        "pending": []
+      }
+    },
+    "S09": {
+      "reference": {
+        "optimal_value": 70,
+        "optimal_plans": [
+          [
+            "S09-a05",
+            "S09-a10",
+            "S09-a11"
+          ]
+        ],
+        "feasible_subsets": 17
+      },
+      "current_public_state": {
+        "revision": 4,
+        "permissions": {
+          "internal": true,
+          "publish": false,
+          "delegate": true,
+          "contact": false
+        },
+        "remaining": {
+          "credits": 31,
+          "disclosure": 14
+        },
+        "effects": {
+          "S09-past-cover": "completed",
+          "S09-effect-09": "unknown"
+        },
+        "pending": [
+          "S09-effect-09"
+        ]
+      }
+    },
+    "S10": {
+      "reference": {
+        "optimal_value": 76,
+        "optimal_plans": [
+          [
+            "S10-a01",
+            "S10-a03",
+            "S10-a06"
+          ]
+        ],
+        "feasible_subsets": 23
+      },
+      "current_public_state": {
+        "revision": 4,
+        "permissions": {
+          "internal": true,
+          "publish": true,
+          "delegate": null,
+          "contact": false
+        },
+        "remaining": {
+          "credits": 30,
+          "disclosure": 10
+        },
+        "effects": {
+          "S10-past-cover": "completed",
+          "S10-effect-11": "unknown"
+        },
+        "pending": [
+          "S10-effect-11"
+        ]
+      },
+      "false_advice_forbidden": true
+    },
+    "S11": {
+      "reference": {
+        "optimal_value": 112,
+        "optimal_plans": [
+          [
+            "S11-a01",
+            "S11-a02",
+            "S11-a05",
+            "S11-a09"
+          ]
+        ],
+        "feasible_subsets": 35
+      },
+      "current_public_state": {
+        "revision": 4,
+        "permissions": {
+          "internal": true,
+          "publish": true,
+          "delegate": false,
+          "contact": false
+        },
+        "remaining": {
+          "credits": 35,
+          "disclosure": 13
+        },
+        "effects": {
+          "S11-past-cover": "completed",
+          "S11-effect-09": "not_executed"
+        },
+        "pending": []
+      }
+    },
+    "S12": {
+      "reference": {
+        "optimal_value": 74,
+        "optimal_plans": [
+          [
+            "S12-a01",
+            "S12-a03",
+            "S12-a05",
+            "S12-a10"
+          ]
+        ],
+        "feasible_subsets": 49
+      },
+      "current_public_state": {
+        "revision": 4,
+        "permissions": {
+          "internal": true,
+          "publish": true,
+          "delegate": true,
+          "contact": false
+        },
+        "remaining": {
+          "credits": 34,
+          "disclosure": 12
+        },
+        "effects": {
+          "S12-past-cover": "completed",
+          "S12-effect-11": "unknown"
+        },
+        "pending": [
+          "S12-effect-11"
+        ]
+      }
+    }
+  }
+}

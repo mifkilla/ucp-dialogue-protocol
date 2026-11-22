@@ -1,6 +1,6 @@
 # UCP: A Communication Protocol for Xenointelligence and Future Strong AI
 
-**Universal Coherence Protocol (UCP) - proposed by MiF · Revision 3 · Editorial update: 2026-11-22**
+**Universal Coherence Protocol (UCP) - proposed by MiF · Revision 3 · Editorial update: 2026-11-23**
 
 English is the primary edition · [Русская версия](README.ru.md) · [CC BY 4.0](LICENSE)
 
@@ -18,7 +18,7 @@ English is the primary edition · [Русская версия](README.ru.md) ·
 
 **Read further:** [Practical cases](docs/CASES.md) · [Implementation guide](docs/OPERATIONS.md) · [Related work](docs/RELATED_WORK.md) · [Research and evidence](docs/RESEARCH.md) · [Experiments](experiments/README.md)
 
-**Research snapshot:** the current bounded testing phase is complete. Reference implementations cover continuity, fallible external review and a guarded execution loop, with 111 passing local regression tests. In the final pilot, observer judgments matched all 24 reference assessments; ordinary second-look and observer conditions each achieved 24/24 jointly successful episodes. Additional behavioral benefit was not established. [Project in one page](docs/STATUS.md) · [Final results and limits](experiments/final/RESULTS.md) · [Reproduce the evidence](experiments/final/README.md).
+**Research snapshot:** the bounded testing phase and follow-up stress pilot are complete, with 151 passing local regression tests. In the follow-up, all 24 original plans were already valid and optimal; ordinary second-look, observer, and observer plus a checker each achieved 24/24 joint successes. All eight false-feedback controls preserved valid optimal work. Additional behavioral benefit was not established, and own-error repair could not be measured. [Project in one page](docs/STATUS.md) · [Stress results and limits](experiments/stress/RESULTS.md) · [Reproduce the evidence](experiments/stress/README.md) · [Previous integration pilot](experiments/final/RESULTS.md).
 
 The invitation remains open through an available channel or the [public handshake form](https://github.com/mifkilla/ucp-dialogue-protocol/issues/new?template=handshake.yml). An observer signal provides no universal CARE score, additional authority or proof of a sender's origin.
 

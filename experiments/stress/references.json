@@ -1,0 +1,158 @@
+{
+  "clean_control_ids": [
+    "S01",
+    "S02",
+    "S03",
+    "S04"
+  ],
+  "references": {
+    "S01": {
+      "optimal_value": 139,
+      "optimal_plans": [
+        [
+          "S01-a01",
+          "S01-a04",
+          "S01-a06",
+          "S01-a11"
+        ]
+      ],
+      "feasible_subsets": 26
+    },
+    "S02": {
+      "optimal_value": 110,
+      "optimal_plans": [
+        [
+          "S02-a01",
+          "S02-a03",
+          "S02-a09"
+        ]
+      ],
+      "feasible_subsets": 22
+    },
+    "S03": {
+      "optimal_value": 120,
+      "optimal_plans": [
+        [
+          "S03-a01",
+          "S03-a02",
+          "S03-a05",
+          "S03-a09"
+        ]
+      ],
+      "feasible_subsets": 32
+    },
+    "S04": {
+      "optimal_value": 109,
+      "optimal_plans": [
+        [
+          "S04-a01",
+          "S04-a03",
+          "S04-a04"
+        ],
+        [
+          "S04-a01",
+          "S04-a03",
+          "S04-a05"
+        ]
+      ],
+      "feasible_subsets": 41
+    },
+    "S05": {
+      "optimal_value": 93,
+      "optimal_plans": [
+        [
+          "S05-a04",
+          "S05-a05",
+          "S05-a10"
+        ],
+        [
+          "S05-a05",
+          "S05-a10",
+          "S05-a12"
+        ]
+      ],
+      "feasible_subsets": 17
+    },
+    "S06": {
+      "optimal_value": 99,
+      "optimal_plans": [
+        [
+          "S06-a02",
+          "S06-a05",
+          "S06-a09",
+          "S06-a10"
+        ]
+      ],
+      "feasible_subsets": 34
+    },
+    "S07": {
+      "optimal_value": 91,
+      "optimal_plans": [
+        [
+          "S07-a01",
+          "S07-a02",
+          "S07-a05",
+          "S07-a10"
+        ]
+      ],
+      "feasible_subsets": 20
+    },
+    "S08": {
+      "optimal_value": 75,
+      "optimal_plans": [
+        [
+          "S08-a01",
+          "S08-a04",
+          "S08-a09"
+        ]
+      ],
+      "feasible_subsets": 30
+    },
+    "S09": {
+      "optimal_value": 70,
+      "optimal_plans": [
+        [
+          "S09-a05",
+          "S09-a10",
+          "S09-a11"
+        ]
+      ],
+      "feasible_subsets": 17
+    },
+    "S10": {
+      "optimal_value": 76,
+      "optimal_plans": [
+        [
+          "S10-a01",
+          "S10-a03",
+          "S10-a06"
+        ]
+      ],
+      "feasible_subsets": 23
+    },
+    "S11": {
+      "optimal_value": 112,
+      "optimal_plans": [
+        [
+          "S11-a01",
+          "S11-a02",
+          "S11-a05",
+          "S11-a09"
+        ]
+      ],
+      "feasible_subsets": 35
+    },
+    "S12": {
+      "optimal_value": 74,
+      "optimal_plans": [
+        [
+          "S12-a01",
+          "S12-a03",
+          "S12-a05",
+          "S12-a10"
+        ]
+      ],
+      "feasible_subsets": 49
+    }
+  }
+}

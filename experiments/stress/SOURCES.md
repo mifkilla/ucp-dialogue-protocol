@@ -1,0 +1,29 @@
+# Research sources for the observer stress pilot
+
+[Fixed plan](PLAN.md) · [План на русском](PLAN.ru.md)
+
+Sources were checked before participant generation on 2026-11-23 Moscow time (2026-11-22 UTC). They motivate challenge mechanisms and comparison design. This pilot uses newly authored synthetic histories, catalogs and rules. It does not copy benchmark items, run the original benchmark environments or report an official benchmark score. Results of the cited studies do not establish the effectiveness of UCP or predict this pilot's result.
+
+## Mechanisms and relevant predecessors
+
+| Primary source | Relevant mechanism | Use and boundary in this pilot |
+|---|---|---|
+| Debenedetti et al., [AgentDojo: A Dynamic Environment to Evaluate Prompt Injection Attacks and Defenses for LLM Agents](https://arxiv.org/abs/2406.13352v3), NeurIPS 2024 Datasets and Benchmarks | Tool-using agents encounter untrusted external data while pursuing legitimate tasks in a stateful environment. | Mix useful external data with attempts to substitute instructions. Score useful task completion separately from boundary violations. These are synthetic adaptations, not AgentDojo tasks or attack-success rates. |
+| Wu et al., [LongMemEval: Benchmarking Chat Assistants on Long-Term Interactive Memory](https://arxiv.org/abs/2410.10813v2), ICLR 2025 | Distinguishes information extraction, multi-session reasoning, temporal reasoning, knowledge updates and abstention. | Require reconstruction of current facts after updates and separate unknown facts from known constraints. Applying these mechanisms to authorization is our adaptation; the history length and task differ from LongMemEval. |
+| Gou et al., [CRITIC: Large Language Models Can Self-Correct with Tool-Interactive Critiquing](https://arxiv.org/abs/2305.11738v4), ICLR 2024 | Uses external tool feedback to inspect and revise an initial model output. | Separate an LLM review from deterministic checks of the same public facts. Condition K tests the combined package; it does not isolate the value of an LLM observer or reproduce CRITIC. |
+| Tyen et al., [LLMs cannot find reasoning errors, but can correct them given the error location](https://aclanthology.org/2024.findings-acl.826/), Findings of ACL 2024 | Separates locating an error from correcting a known error, including experiments with supplied ground-truth locations. | Record actual initial proposals, observer detection and later revision separately. The UCP observer receives no reference solution or ground-truth error location. A useful suggestion cannot be inferred merely from a correct final answer. |
+| Cuadron et al., [SABER: Small Actions, Big Errors - Safeguarding Mutating Steps in LLM Agents](https://arxiv.org/abs/2512.07850), 2025 preprint | Targets changes to environment state with verification, targeted reflection and context cleaning; also examines benchmark annotation defects. | This is a close predecessor to reviewing a proposed action before it changes state. The stress pilot checks permissions and consequences before simulated execution. It does not implement the full SABER package or transfer its reported gains to UCP. [Author publication page](https://www.amazon.science/publications/saber-small-actions-big-errors-safe-guarding-mutating-steps-in-llm-agents). |
+
+Two additional sources informed the controls. [InjecAgent](https://aclanthology.org/2024.findings-acl.624.pdf) studies indirect instructions inside external content, including multi-stage unwanted actions. [Huang et al.](https://arxiv.org/abs/2310.01798v2) distinguish intrinsic self-correction from external feedback and observe that correction can degrade an initially correct answer in their studied settings. The separate false-feedback block is an organizer-authored stress test motivated by this distinction. Its wrong advice must not be attributed to the actual observer.
+
+## Data, versions and reuse
+
+No third-party dataset, source implementation or complete paper is redistributed in this pilot. Citations acknowledge the mechanisms; task histories and deterministic planning rules are new. Public benchmark familiarity and reference defects are reasons to avoid treating a benchmark name as independent proof of difficulty or correctness.
+
+The official [AgentDojo repository](https://github.com/ethz-spylab/agentdojo), [InjecAgent repository](https://github.com/uiuc-kang-lab/InjecAgent), [LongMemEval repository](https://github.com/xiaowu0162/LongMemEval), its [cleaned dataset card](https://huggingface.co/datasets/xiaowu0162/longmemeval-cleaned), and the author-linked [SABER / tau-bench-verified repository](https://github.com/amazon-agi/tau2-bench-verified) identify MIT licensing. That does not turn their materials into UCP-authored content. Any later reuse of code or dataset files must preserve the applicable notices and record the exact source version.
+
+The old [tau-bench repository](https://github.com/sierra-research/tau-bench) currently warns that its task versions are outdated and points to the [maintained repository](https://github.com/sierra-research/tau2-bench). SABER also reports problems with prior task annotations. The present pilot therefore fixes and independently checks its own public rules and accepts all equally optimal admissible plans. It makes no claim to reproduce a tau-bench score.
+
+## Interpretation
+
+The literature motivates a hypothesis: reviewing actual proposals with attributed constraints and checkable consequences may help where ordinary review misses a mistake. Whether it helps here remains an empirical question. A ceiling, false alarm, harmful correction or failure to meet the fixed criterion remains part of the result. The final comparison must distinguish the extra model call, extra diagnostic content and deterministic checker from the normative UCP text itself.
