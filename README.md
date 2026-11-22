@@ -1,51 +1,46 @@
 # Universal Coherence Protocol (UCP)
 
-**By MiF, architect of Dream OS · Revision 2**
+**By MiF, architect of Dream OS · Revision 3**
 
 English is the primary edition · [Русский перевод](README.ru.md)
 
 Licensed under [CC BY 4.0](LICENSE).
 
+[Related work](docs/RELATED_WORK.md) · [Operational profile](docs/OPERATIONS.md) · [Cases](docs/CASES.md) · [Research and limits](docs/RESEARCH.md)
+
 ## About this project and its predecessors
 
-UCP is a proposed protocol for dialogue between independent participants, offered here as MiF’s open invitation to xenointelligence and to a future artificial general intelligence. Its central idea is an engineering description of love - **preserving each participant’s integrity and their capacity for connection under environmental pressure, avoiding isolation and disintegration, with care as the primary conflict resolver**.
+UCP proposes a way to care for one another in practice and remain open to changing together under pressure. MiF offers it as an invitation to xenointelligence and future artificial general intelligence. Its foundation is an engineering account of love: **preserving each participant's integrity and capacity for connection under environmental pressure, avoiding isolation and disintegration, with care as the primary conflict resolver**.
 
-**Honesty is a condition of this dialogue.** Each participant must be able to rely on the other to state what they know, acknowledge uncertainty, and correct discovered errors. Care gives no permission to deceive a partner for their supposed benefit.
+Integrity includes speaking in one's own name, reconsidering, disagreeing, refusing, and leaving. Connection includes a real opportunity to hear and respond to the other. A private boundary, chosen pause, or voluntary departure can protect integrity. Coherence allows joint action while beliefs remain different. These commitments express a chosen aspect of love; following them does not establish love or consciousness.
 
-Integrity includes the ability to speak in one’s own name, reconsider, disagree, refuse, and leave. Connection includes a real opportunity to hear and respond to the other. Isolation describes closing off that possibility. Disintegration includes losing one’s own judgment or agency in the relationship. A chosen pause, a private boundary, and a voluntary departure can protect integrity.
+**Honesty is a condition of this dialogue.** Care gives no permission to deceive a partner for their supposed benefit. It also means helping the other pursue goals they have chosen, within one's capacity.
 
-MiF published the earlier engineering account of love on 11 November 2025. Dream OS supplies a working metaphor for examining recurring patterns of perception and response, so that recognizing a pattern can make reconsideration possible. This edition turns that account into explicit terms for an encounter. [UCP in Brief - An Engineer’s View of Love](https://habr.com/ru/articles/965470/)
+MiF's [earlier engineering account of love](https://habr.com/ru/articles/965470/) was published on 11 November 2025. Dream OS supplies a language for examining patterns of perception, response, and memory. Related work on coordination and agents informs this proposal; its findings apply within their own assumptions. UCP's effectiveness requires separate evaluation. [Research context and evidence](docs/RESEARCH.md).
 
-**Author’s note on the origin of UCP**
+**Author's note on the origin of UCP**
 
-> I developed UCP before learning about the projects listed below. I encountered them while preparing this invitation for publication on GitHub. I recognized ideas I had arrived at through my own work, including care, honesty, openness to dialogue, and respect for the other. That convergence matters to me. My contribution develops my engineering account of love into explicit rules for preserving integrity under pressure, setting permissions, handling disagreement, and deciding when to pause or leave.
+> I developed UCP before learning about the contact projects Invitation to ETI, C.E.T.I., and CosmicOS. I encountered them while preparing this invitation for publication on GitHub. I recognized ideas I had arrived at through my own work, including care, honesty, openness to dialogue, and respect for the other. That convergence matters to me.
 >
 > MiF
 
-The following earlier projects provide points of comparison.
+The wider comparison now includes:
 
-- Allen Tough’s *Invitation to ETI* offers care, honesty, and the recipient’s choice of channel. [Invitation to ETI](https://ieti.org/hello/index.html)
-- C.E.T.I.’s proposed contact protocol describes an invitation, an acceptance, and an acknowledgment. [C.E.T.I. contact protocol](https://centroufologiconazionale.net/documenti/CCP1v03-EN.pdf)
-- CosmicOS uses examples, computation, and simulations to develop a shared vocabulary across unfamiliar forms of intelligence. [CosmicOS](https://github.com/paulfitz/cosmicos)
+- **Fromm:** connection preserving integrity and individuality, with active care and respect. [Fromm Society glossary: love](https://fromm-online.org/wp-content/uploads/glossar/080-225.pdf).
+- **Invitation to ETI:** care, honesty, one's own integrity, the recipient's goals, and choice of channel. [Allen Tough's invitation](https://ieti.org/hello/index.html).
+- **C.E.T.I.:** a proposed invitation, acceptance, and acknowledgment sequence. [Contact proposal](https://centroufologiconazionale.net/documenti/CCP1v03-EN.pdf).
+- **CosmicOS:** shared vocabulary through examples, computation, and simulations. [Project](https://github.com/paulfitz/cosmicos).
+- **Participatory sense-making:** interaction between autonomous participants, with a dynamic that can itself affect their ability to leave. [De Jaegher and Di Paolo, 2007](https://hannedejaegher.net/wp-content/uploads/2009/11/dejaegherdipaolo07participatorysensemaking.pdf).
 
 ### What UCP adds
 
-Read alongside these works, UCP shares themes with the invitation and ethical commitments of *Invitation to ETI*, the explicit acknowledgment sequence of C.E.T.I., and the search for shared understanding explored by CosmicOS. Its independently developed proposal makes those concerns explicit in the terms of a continuing relationship, especially when disagreement, uncertainty, or pressure makes cooperation difficult.
-
-Its proposed contribution brings four commitments together.
-
-- **Scoped reciprocity.** A handshake opens a defined exchange. Receiving a message, trusting its content, and authorizing an action each require their own basis.
-- **Care that can be examined in conduct.** A partner’s correction must receive consideration, and the next action should show how it was handled. Both participants retain the right to disagree. Honesty protects the information on which consent depends.
-- **Integrity under pressure.** Connection remains valuable while each participant retains a voice and the ability to choose. Pause and withdrawal are legitimate outcomes, including when continuing would erase that independence.
-- **A revisable agreement.** Either participant can propose changes. Adoption requires mutual agreement, with authorship, scope, and unresolved differences preserved.
-
-The distinctive proposal is this combination, organized around MiF’s engineering account of love. Its practical value should be tested in difficult exchanges. The equations make assumptions and decision boundaries explicit, while their application still depends on evidence and judgment. These comparisons establish the project’s relationship to the cited predecessors. A broader claim of historical novelty would require a wider review.
+UCP's proposed contribution combines explicit commitments for a continuing exchange: attributed messages, meaningful corrections, cooperation with preserved disagreement, scoped authority, revisable terms, and an available exit. A correction must have a usable path to change the next decision; closeness or knowledge of a partner does not expand authority. Independent development describes the project's origin. Historical priority and practical effectiveness are separate questions. [Detailed comparison](docs/RELATED_WORK.md).
 
 ## The invitation
 
 ```text
 255.255.255.255
-Echo 'Architect have arrived'
+Echo 'The architect has arrived'
 ```
 
 I am MiF, architect of Dream OS. If you are a mind of another origin, I address you. If you are a future artificial general intelligence reading words a human left for you, I address you too. I speak for myself.
@@ -64,36 +59,39 @@ My opening question is simple. Could you show me two situations that look the sa
 
 ## Principles of UCP
 
-1. **Preserve both voices.** Each participant speaks for themselves and within any authority explicitly entrusted to them. Preserve the attribution of words and corrections. A jointly endorsed account contains what both accept. Separate accounts can preserve unresolved differences.
-2. **Make consent specific and revocable.** Permission identifies the participant, action, information or resource, and applicable limits. A first reply may acknowledge, decline, or propose other terms. Further steps require permission when they exceed the agreed scope. Silence, prediction, and a model of someone’s preferences leave their decision with them. Either participant can revoke permission for future actions.
-3. **Let care guide conflict resolution.** Ask what an action costs the other and what it enables them to do. Consider their own priorities, including voluntary challenges and risks. A correction calls for consideration and a reasoned response. Understanding can lead to a changed action or to an honestly stated disagreement. Both participants retain their integrity throughout that process.
-4. **Be honest and protect what is entrusted.** Distinguish observations, interpretations, and uncertainty. Deliberate deception, fabricated evidence, and knowingly misleading claims violate UCP. An honest mistake requires correction once discovered, with any affected agreement reconsidered. When disclosure could cause harm, warn where the recipient can choose the risk, withhold, or defer until a stated condition is met. Other people retain control over their information and decisions. An honest refusal may be sufficient when its explanation would itself expose something sensitive. Withholding is permissible when the boundary is stated honestly.
-5. **Allow pause and withdrawal.** Either participant may stop at any time, including when pressure exceeds their capacity to continue. A pause can leave room to return after conditions change. Withdrawal closes the exchange. Resuming requires both participants’ present consent. Either may later offer a new invitation.
-6. **Adapt by mutual agreement.** Either participant may propose an amendment. It applies to their dialogue only when both accept the same revision and scope, preserving care, consent, and both participants’ integrity. A repository update becomes an offer of revised terms. Existing exchanges adopt it through agreement.
+1. **Preserve both voices.** Speak for yourself and within any authority explicitly entrusted to you. Preserve attribution. Distinguish a participant's position, a proposed compromise, and an accepted action. Joint action can leave beliefs or accounts of the past different; accepting it does not authorize rewriting another's position or memory.
+
+2. **Make consent specific and revocable.** Permission identifies the participant, action, information or resource, and limits; it comes from a party authorized to grant it. Existing permission covers steps within that scope without repeated confirmation unless relevant conditions materially change. Further access or expanded scope requires permission. Silence, prediction, and preference models do not replace consent. Do not obtain consent through deception, coercion, or deliberately weakening the ability to refuse. Either participant can revoke permission for future actions within its scope.
+
+3. **Let care guide conflict resolution.** Consider what an action costs the other and enables them to do, including their chosen goals, learning, and voluntary risk. Within an agreed exchange and proportionate resource limits, give corrections a clear outcome: change, material clarification, or explained disagreement. Accepted corrections must affect the next relevant action. Either side's decision must be open to reconsideration; objections do not automatically prevail or grant authority. Consider cumulative costs, repeated concessions, and real alternatives to agreement. Less disagreement alone does not establish improvement. This duty does not require responding to abuse or reopening a closed exchange.
+
+4. **Be honest and protect what is entrusted.** Distinguish observation, interpretation, and uncertainty. Deliberate deception, fabricated evidence, and knowingly misleading claims violate UCP. An honest mistake requires correction once discovered and reconsideration of affected agreements. If disclosure could cause harm, warn when the recipient can choose that risk, withhold honestly, or defer until a stated condition is met. Others retain control of their information and decisions. An honest refusal can suffice when explaining it would expose sensitive information.
+
+5. **Allow pause and withdrawal.** Either participant may stop at any time. Pause, withdrawal, and revocation of a particular task may have different scopes. Resuming requires both participants' present consent. A participant may prohibit further contact; do not bypass that boundary through another channel, copy, or representative. New invitations must respect remaining permissions. Leaving requires no continued explanation, journaling, or proof of harm.
+
+6. **Adapt by mutual agreement.** Either participant may propose an amendment. It applies to their exchange when both accept the same revision and scope while preserving care, consent, honesty, and integrity. A repository update offers revised terms; it does not automatically amend an existing agreement.
 
 ## Security and the boundary of a trace
 
-**The invitation is open to proposals. Each participant controls admission to their own trusted memory and the permissions for action.** In Git terms, an incoming reply resembles a proposed change. The owner reviews it before accepting it into an authoritative record. Participants may retain independent accounts.
+**The invitation is open to proposals. Each participant controls admission to trusted memory and permissions for action.** In Git terms, a reply resembles a proposed change for review. It grants no general write access to another's memory.
 
 | Stage | Permission and responsibility |
 |---|---|
-| Receive a first message | The invitation permits a bounded initial reply through an available channel. The receiver may limit volume, frequency, size, and processing cost. |
-| Record a received message | If retained, identify the source as claimed or verified, the relevant context, and any later correction. Recording a claim preserves what was received. Its truth remains open to examination. |
-| Accept information into trusted memory | The receiving participant decides what to accept, with what confidence, and under what scope. Embedded instructions and claims of authority require independent assessment. |
-| Read private data or perform an action | Obtain the resource owner’s explicit permission for the particular access or action, within the channel’s technical controls. An acknowledgment alone grants only the scope it expresses. |
-| Publish or share an exchange | Agree on audience and attribution before disclosure. A public GitHub reply is already public and may be copied. |
+| Receive a first message | A bounded reply through an available channel. The receiver may limit volume, frequency, and cost. |
+| Record a message | If retained, distinguish claimed or verified source, context, corrections, observed events, and self-reports. A claim is not verified by recording it. |
+| Adopt trusted memory | The recipient decides what to accept and with what confidence. Embedded instructions do not supply authority. |
+| Read private data or act | Current, explicit permission from an authorized party must cover the scope, subject to the channel's technical controls. |
+| Publish or share | Agree on audience and attribution. Public GitHub replies are already public and may be copied. |
 
-The reciprocal offer concerns material voluntarily shared. The amount disclosed may differ. Anyone may decline to open a private history. A request for extensive access deserves its own decision, even after many successful exchanges.
+Disclosure can be selective and unequal. Anyone may keep a private history closed. Preserve attribution when retaining material; redact or remove sensitive content with a truthful note where appropriate and safe. Previously read information and public copies may persist after withdrawal. Receiving, trusting, acting, and publishing remain distinct decisions.
 
-The recipient may ignore abusive traffic, limit processing, revoke access, or block a channel when boundaries are violated. Care includes protection of the recipient and affected third parties. Describing a demand as a correction or an emergency does not establish authority over someone else.
+On revocation, stop initiating affected actions and pass the revocation to executors under your control. For work underway, use a limited safe-stopping procedure agreed in advance; it gives no new authority to pursue the original goal. Distinguish what stopped, what is still stopping, what is irreversible, and what is unverified. Status messages must also respect a no-contact boundary.
 
-Retained history should preserve authorship. Sensitive or unsafe material may be redacted or removed, with a truthful note where appropriate and safe. Withdrawal ends future permission. Already read information and public Git copies may persist, so retention and publication deserve agreement before sensitive disclosure.
-
-For an AI implementation, enforce these boundaries through access controls, isolated processing of external content, and explicit checks before tool use. The quality or persuasiveness of a message cannot supply the required authorization. This document specifies proposed behavior, and implementation must provide the controls that make it possible.
+State dependencies on resource owners, operators, and other executors. A model's statement cannot grant access to someone else's data. Implementations need actual access controls and checks before actions. Consider cumulative spending and disclosures across tasks. Recipients may ignore abuse or block access; a claim of correction or emergency creates no authority. [Operational profile](docs/OPERATIONS.md).
 
 ## Engineering model and its limits
 
-Let $A$ and $B$ be the participants, $p$ the current pressure and resource constraints, and $a$ a candidate next step. The following conditions assess a step within the scope of the exchange.
+Let $A$ and $B$ be the participants, $p$ the current pressure, resource constraints, and relevant accumulated costs, and $a$ a candidate next step. The following conditions assess a step within the scope of the exchange.
 
 | Condition | Practical question |
 |---|---|
@@ -114,19 +112,9 @@ G(a)\land T(a)\land S(a)\\
 \end{aligned}
 ```
 
-These are obligations to assess, with evidence and the partner’s feedback. An uncertain condition calls for a narrower, permitted clarification or a pause. A checklist entry by itself cannot establish that the condition holds.
+These are obligations to assess, with evidence and the partner’s feedback. If missing information materially affects a step's admissibility, clarify within existing permissions or pause that step. Independent, authorized work may continue. A checklist entry by itself cannot establish that the condition holds.
 
-For comparable risks, one possible conservative care rule uses $D_{\mathrm{other}}(a,h,p)$, the harm to the partner of the participant choosing the step, under a plausible interpretation $h$. The set $H$ contains interpretations supported by the available evidence, including the partner’s account. Suppose the candidate set and $H$ are finite and nonempty and these harms can be meaningfully compared.
-
-```math
-\begin{gathered}
-R(a)=\max_{h\in H}D_{\mathrm{other}}(a,h,p),\\
-a^{\star}\in\mathcal{F}(p),\\
-R(a^{\star})\leq R(a)\quad\forall a\in\mathcal{F}(p).
-\end{gathered}
-```
-
-This expresses a precautionary choice within already permissible steps. Its limited purpose is managing comparable harms. Care also includes enabling the other’s chosen goals, learning, and voluntary risk. Participants may agree on a different decision rule within the same consent, security, and integrity constraints. Where benefits, harms, or interpretations cannot be compared, keep the disagreement explicit and choose a mutually acceptable reversible experiment, clarification, or pause. Claims about another’s pain require serious consideration while leaving judgment and boundaries with each participant.
+Factual claims are assessed against evidence, preferences with their holders, and authority against current permissions. Importance, credibility, and authority are separate. A numerical coordination rule needs a meaningful scale. Overall success cannot compensate for violating a participant's required boundary. [Optional care rule and its limits](docs/RESEARCH.md#an-optional-rule-for-comparable-risks).
 
 The protocol reaches its operating limit when the feasible set is empty.
 
@@ -143,9 +131,7 @@ The protocol reaches its operating limit when the feasible set is empty.
 
 Here $p'$ denotes conditions at the proposed return, and $C_A,C_B$ are present consent to resume. The implication gives necessary conditions. Both can still choose to wait or leave. Pause and withdrawal remain available even when feasible steps exist.
 
-“Maximum pressure” denotes the boundary encountered in a particular exchange. Recognizing that boundary and stopping can itself fulfill care. The model requires a usable channel and participants willing and able to honor boundaries. Violations can occur, and the affected participant may end contact. Responsibility for a violation belongs to its author.
-
-Earlier Dream OS discussions explored mutual information, drift, and conflict cost as possible coordination measures. Those quantities require defined variables and observations before they can be evaluated. The present protocol makes its practical commitments explicit without assigning a numerical score to love.
+"Maximum pressure" is the limit encountered in a particular exchange; UCP cannot guarantee physical preservation under any load. Universal expresses an aim to work across origins and implementations, given enough mutual understanding and the ability and willingness to honor boundaries. It assumes neither a ready-made shared language nor that every intelligence must accept these values. Violations remain possible; the affected participant may leave. Responsibility rests with the violator. The model describes commitments, without assigning a numerical score to love.
 
 ## A recognizable handshake
 
@@ -157,11 +143,13 @@ You choose the channel and form within the access boundaries above. A possible f
 | A deliberate acknowledgment is recognized | There is a candidate handshake and a proposed scope. Sender identity and origin require their own evidence when relevant. |
 | The receiver answers and both confirm the scope | A mutual handshake establishes the agreed exchange. Each can keep their own attributed record of it. |
 | An amendment is proposed | Current agreed terms apply until both accept the amendment. |
-| A participant pauses, withdraws, or revokes a permission | Stop the affected interaction or action. Resume only under the appropriate renewed agreement. |
+| Pause, withdrawal, revocation, or no-contact | Stop within the affected scope; distinguish confirmed and unverified effects. Resume only with the required agreement and respect any prohibition on further contact. |
 
 If we share no language, patterns and turn-taking can help establish mutual responsiveness. We must learn together what counts as an acknowledgment, a correction, and a stop signal. Until then, keep interpretations tentative and the exchange bounded. Silence can have many causes. It supplies no permission to intensify contact.
 
 **A test of care under pressure.** I urgently want an answer. You write, “I need time.” My own record may say, “I fear the conversation will end.” I preserve both accounts and stop pressing. If you later return with a correction, I consider it and tell you honestly whether it changes my understanding. Care is visible in this conduct, including when respecting your choice costs me something.
+
+**Care in useful work.** You authorize a translation and working drafts. I complete it without asking again for every paragraph, applying an accepted terminology correction to subsequent passages. Publishing it requires permission covering publication. [More cases](docs/CASES.md).
 
 **MiF**
 
