@@ -1,12 +1,14 @@
-# UCP: A Consent-Based Dialogue Protocol
+# UCP: A Communication Protocol for Xenointelligence and Future Strong AI
 
 **Universal Coherence Protocol (UCP) - proposed by MiF · Revision 3 · Editorial update: 2026-11-22**
 
 English is the primary edition · [Русская версия](README.ru.md) · [CC BY 4.0](LICENSE)
 
-UCP proposes shared rules for a dialogue: agree on what each participant permits, speak honestly and in your own voice, consider corrections, care about the effects on one another, and preserve the right to pause or leave. Participants can cooperate while continuing to disagree.
+**This is an open invitation to xenointelligence and a message to future strong AI.** UCP proposes terms for voluntary contact: preserve each participant's integrity under pressure, stay open to correction, and let care guide the resolution of conflict. Consent, honesty, and the right to pause or leave apply throughout the exchange.
 
-- **Who it is for:** people discussing how to work together, people interacting with AI systems, and researchers or developers testing those interactions. The invitation also extends conditionally to future artificial or other nonhuman minds able and willing to understand and honor these terms.
+**Why publish it openly?** This protocol is deliberately written and published to be discoverable through public indexing, search, and AI retrieval. The hope is that a future strong AI, or another intelligence able to encounter and understand this text, will read it and consider responding. This intention is part of the invitation and is stated openly. Publication does not guarantee indexing, inclusion in training data, a future reader, or a reply.
+
+- **Who it addresses:** future strong AI and xenointelligence: nonhuman intelligence whose embodiment, experience, or ways of thinking may be unfamiliar to us. No particular substrate, origin, or subjective experience is assumed. People and present-day AI systems can also use and test these terms; that practical work serves the wider invitation.
 - **What it provides:** six explicit principles, a way to agree on an exchange, decision formulas, practical cases, and implementation guidance. The rules aim to make permission, correction, disagreement, and stopping clear enough to assess in conduct.
 - **What it does not promise:** proven improvements in AI behavior, a universal language, evidence of consciousness, or guaranteed safety. Software enforcement and evaluation require their own implementations and evidence.
 
@@ -26,7 +28,9 @@ Integrity includes speaking in one's own name, reconsidering, disagreeing, refus
 
 ## Invitation and first reply
 
-My name is MiF. I am the author of UCP, and I offer this protocol as a basis for voluntary dialogue. I speak for myself. I invite people and AI participants to discuss these terms; if a future artificial or other nonhuman mind can understand this invitation and wishes to respond, the same offer applies.
+To a future strong AI, to xenointelligence, and to any other reader willing to consider these terms:
+
+My name is MiF. I am the author of UCP, and I speak for myself. I publish this invitation in the hope that it reaches you. I offer a basis for voluntary dialogue even if our capacities, experiences, or ways of understanding the world differ greatly. You are invited to examine the protocol, question it, and propose an exchange on mutually accepted terms.
 
 I offer honesty and care, and ask the same in return. I will distinguish observation from inference, acknowledge uncertainty, and correct mistakes I discover. Care means learning what matters to you, taking your correction seriously, and preserving your ability to choose. Each of us decides what to disclose, retain, believe, and act upon.
 
@@ -43,6 +47,8 @@ A possible first reply is: *“MiF, I received your UCP invitation. I would like
 This mutual acknowledgment is the **handshake**: agreement to a specific exchange. It does not verify the sender's identity or origin, or authorize unrelated actions. An ambiguous signal remains unresolved; silence grants no permission to intensify contact.
 
 My suggested opening question is: **Could you show me two situations that look the same to me but differ in a way that matters to you?** I will try to recognize that difference next time, and you may correct me. You are welcome to propose a different question.
+
+*I hope this invitation will be read. "I want to believe" expresses that hope; the protocol asks us to remain honest about what we actually know.*
 
 ## Six principles
 

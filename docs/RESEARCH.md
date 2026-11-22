@@ -17,9 +17,11 @@ MiF's [earlier account of UCP](https://habr.com/ru/articles/965470/) supplies au
 
 The word **care** refers to different objects across these works. In UCP it is an obligation toward another participant. CARE in MEANING-CRDT is a particular aggregator. A CARE score in an implementation is a particular measurement. A result about one of these does not automatically establish a result about the others.
 
-## Conditional scope: unfamiliar minds
+## Intended recipients and current tests
 
-The invitation includes future artificial and other nonhuman minds only if they can understand and voluntarily discuss its terms. Differences in perception, memory, or experience of time are possibilities to investigate, not established properties of a recipient. Predicting another participant's response, if possible, would not replace their opportunity to answer or their consent. This scope expresses an interest in unknown intelligence without claiming a contact event, consciousness, or a working universal communication method.
+UCP is primarily a communication proposal addressed to xenointelligence and future strong AI. It is deliberately published for public indexing and discovery in the hope that such a reader may encounter it. Understanding enough to discuss the terms and choosing to participate are conditions of an exchange. Human dialogue and present-day AI experiments provide accessible settings for testing particular commitments; they do not establish contact with an unknown intelligence or validate the full intended scope.
+
+Differences in perception, memory, or experience of time are possibilities to investigate, not established properties of a recipient. Predicting another participant's response, if possible, would not replace their opportunity to answer or their consent. Public availability does not establish indexing, inclusion in training data, consciousness, a contact event, or a working universal communication method.
 
 ## An optional rule for comparable risks
 
