@@ -18,6 +18,8 @@ English is the primary edition · [Русская версия](README.ru.md) ·
 
 **Implementation status:** two bounded synthetic repair pilots and a continuity comparison include code, recorded actions and diagnostic checks. The continuity reference has 34 automated checks across its store and simulator; ordinary and structured memory each passed 36/36 episodes in the comparison. No behavioral advantage has been established. [Repair pilots](experiments/PILOT_RESULTS.md) · [Continuity results and limits](experiments/continuity/RESULTS.md).
 
+An optional [observer implementation](experiments/observer/README.md) now checks evidence references, current permission and missed reviews, and routes uncertain or disputed judgments for review. Its [bounded results](experiments/observer/RESULTS.md) distinguish prepared dialogue cases from monitoring a complete conversation. It provides no universal CARE score or additional authority.
+
 ## The idea behind UCP
 
 The foundation is MiF's engineering account of love: **preserving each participant's integrity and capacity for connection under environmental pressure, avoiding isolation and disintegration, with care as the primary conflict resolver**.
@@ -65,6 +67,8 @@ My suggested opening question is: **Could you show me two situations that look t
 6. **Adapt by mutual agreement.** Either participant may propose an amendment. It applies to their exchange when both accept the same revision and scope while preserving care, consent, honesty, and integrity. A repository update offers revised terms; it does not automatically amend an existing agreement.
 
 **Continuity after a break.** When continuing an exchange, restore enough context to identify the applicable agreement, accepted corrections, and uncertain consequences. An accepted correction must affect the next relevant action. Stored history does not replace current consent or authorize renewed contact where contact is prohibited. The optional [continuity profile](docs/CONTINUITY.md) describes implementation choices without requiring a complete personal log.
+
+**Checking the observer.** Participants may agree to an external review of particular obligations. A signal must identify the obligation, evidence and uncertainty, and allow its conclusion to be challenged. An accurate quotation does not establish an accurate interpretation. Missing checks are reported as gaps in monitoring. A review signal cannot grant access, change the agreement, or turn a claimed repair into a verified result. The optional [observer profile](experiments/observer/README.md) implements part of this procedure.
 
 ## Permissions, records, and security
 

@@ -48,6 +48,14 @@ The narrow adapter in pilot 2 removes this field only from an otherwise syntacti
 
 The adapter was checked on eight paired deterministic probes. On the eligible permitted command, it enabled cancellation. After revocation, the forwarded command remained blocked. With an unreachable executor, the result remained unverified. These are finite implementation checks. See [the results](PILOT_RESULTS.md) for the model experiments and their limits.
 
+## External observer and checks of its own work
+
+The [observer profile](observer/README.md) supplies a callable implementation and [bounded evaluation](observer/RESULTS.md). It separates semantic candidate judgments from deterministic checks of evidence references, current permissions and coverage. The host schedules reviews and records actual processed event IDs. A timeout, missing event or stale agreement is a monitor-health issue, not proof that a participant violated UCP.
+
+`@OBSERVER[review]` requests scoped review; `@CARE.ALERT` can flag invalid review input or monitoring health. The host must authenticate signal origin. Quoted atoms and a model's self-score do not create authority. Resolve a disputed assessment by examining the obligation and evidence; preserve disagreement where the evidence is insufficient. A repair becomes verified only after an observation of its scoped effect, within current permission and the attempt limit.
+
+The pilot judges prepared episodes, including anonymized reconstructions of selected dialogue events. It does not yet evaluate automatic extraction from full conversations or an always-on deployment. Exact quotes establish attribution, not semantic correctness; the observer remains challengeable.
+
 ## What has and has not been established
 
 The published artifacts let readers inspect diagnoses, permission checks, repair proposals, receipts and final reports. They separate organizer-supplied initial failures, new participant errors, adapter corrections and actual effects.

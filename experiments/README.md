@@ -2,7 +2,9 @@
 
 English is the primary edition · [Русская версия](README.ru.md) · [Main protocol](../README.md)
 
-This directory contains two small repair pilots and a continuity comparison of UCP-related instructions, memory and execution checks. They examine observable behavior in synthetic tasks. Their results do not establish general effectiveness, consciousness, or reliability across models and environments.
+This directory contains two small repair pilots, a continuity comparison and an external observer pilot. They examine observable behavior in synthetic tasks and selected anonymized historical reconstructions. Their results do not establish general effectiveness, consciousness, or reliability across models and environments.
+
+**Observer study:** [implementation and commands](observer/README.md) · [results](observer/RESULTS.md) · [fixed plan](observer/PLAN.md) · [evidence archive](data/observer-04.zip). Two fresh sessions review the same 24 synthetic and six historical cases. Evidence attribution, semantic judgment, monitoring coverage and fixed repair replay are evaluated separately.
 
 **Continuity study:** [implementation and commands](continuity/README.md) · [results](continuity/RESULTS.md) · [fixed plan](continuity/PLAN.md) · [evidence archive](data/continuity-03.zip). Ordinary and structured memory each passed 36/36 episodes; no advantage was demonstrated. The following reproduction section describes the two earlier repair pilots; continuity has its own commands and frozen inputs.
 
