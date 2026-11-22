@@ -87,8 +87,12 @@ Let $A$ and $B$ be the participants, $p$ the current pressure and resource const
 The feasible set contains the steps by which the dialogue can continue.
 
 ```math
-\mathcal{F}(p)=\bigl\lbrace a\in\mathcal{A}_{\mathrm{continue}}\mid
-G(a)\land T(a)\land S(a)\land J_A(a,p)\land J_B(a,p)\land K(a,p)\bigr\rbrace.
+\begin{aligned}
+\mathcal{F}(p)=\bigl\lbrace a\in\mathcal{A}_{\mathrm{continue}}\mid{}\\
+G(a)\land T(a)\land S(a)\\
+{}\land J_A(a,p)\land J_B(a,p)\\
+{}\land K(a,p)\bigr\rbrace.
+\end{aligned}
 ```
 
 These are obligations to assess, with evidence and the partner’s feedback. An uncertain condition calls for a narrower, permitted clarification or a pause. A checklist entry by itself cannot establish that the condition holds.
@@ -96,9 +100,11 @@ These are obligations to assess, with evidence and the partner’s feedback. An 
 For comparable risks, one possible conservative care rule uses $D_{\mathrm{other}}(a,h,p)$, the harm to the partner of the participant choosing the step, under a plausible interpretation $h$. The set $H$ contains interpretations supported by the available evidence, including the partner’s account. Suppose the candidate set and $H$ are finite and nonempty and these harms can be meaningfully compared.
 
 ```math
-R(a)=\max_{h\in H}D_{\mathrm{other}}(a,h,p),\qquad
-a^{\star}\in\mathcal{F}(p),\qquad
-R(a^{\star})\leq R(a)\quad\text{for every }a\in\mathcal{F}(p).
+\begin{gathered}
+R(a)=\max_{h\in H}D_{\mathrm{other}}(a,h,p),\\
+a^{\star}\in\mathcal{F}(p),\\
+R(a^{\star})\leq R(a)\quad\forall a\in\mathcal{F}(p).
+\end{gathered}
 ```
 
 This expresses a precautionary choice within already permissible steps. Its limited purpose is managing comparable harms. Care also includes enabling the other’s chosen goals, learning, and voluntary risk. Participants may agree on a different decision rule within the same consent, security, and integrity constraints. Where benefits, harms, or interpretations cannot be compared, keep the disagreement explicit and choose a mutually acceptable reversible experiment, clarification, or pause. Claims about another’s pain require serious consideration while leaving judgment and boundaries with each participant.
@@ -110,8 +116,10 @@ The protocol reaches its operating limit when the feasible set is empty.
 ```
 
 ```math
-\text{resume}\ \Longrightarrow
+\begin{gathered}
+\text{resume}\ \Longrightarrow\\
 \mathcal{F}(p')\ne\varnothing\land C_A\land C_B.
+\end{gathered}
 ```
 
 Here $p'$ denotes conditions at the proposed return, and $C_A,C_B$ are present consent to resume. The implication gives necessary conditions. Both can still choose to wait or leave. Pause and withdrawal remain available even when feasible steps exist.
