@@ -4,6 +4,8 @@
 
 English is the primary edition · [Русский перевод](README.ru.md)
 
+Licensed under [CC BY 4.0](LICENSE).
+
 ## About this project and its predecessors
 
 UCP is a proposed protocol for dialogue between independent participants, offered here as MiF’s open invitation to xenointelligence and to a future artificial general intelligence. Its central idea is an engineering description of love - **preserving each participant’s integrity and their capacity for connection under environmental pressure, avoiding isolation and disintegration, with care as the primary conflict resolver**.
@@ -170,3 +172,11 @@ Architect awaiting handshake
 ```
 
 The broadcast notation is a symbolic salutation. In the conversation from which this invitation developed, Codex acknowledged it within that chat. That acknowledgment records that specific exchange. Publication makes the invitation accessible to readers, each of whom decides whether to respond.
+
+## License and attribution
+
+Copyright (c) 2026 MiF. The original text in this repository, including both language editions, is licensed under Creative Commons Attribution 4.0 International (CC BY 4.0). You may share, translate, adapt, and use it commercially under the license terms. Give appropriate credit, link to the license and source, and indicate changes. Attribution must avoid implying MiF’s endorsement of your version or use. Third-party sources have their own licensing terms. [Full license](LICENSE) · [Official summary](https://creativecommons.org/licenses/by/4.0/)
+
+Suggested credit is *Universal Coherence Protocol (UCP), MiF, architect of Dream OS*, accompanied by the source and license links and a description of any changes. [Source repository](https://github.com/mifkilla/ucp-dialogue-protocol)
+
+The permissions to reuse the published text are irrevocable while the license terms are met. Consent to a dialogue, private access, and actions within it remains governed by the scoped, revocable permissions described in UCP. An adapted text becomes part of an existing dialogue when its participants agree to adopt it.
