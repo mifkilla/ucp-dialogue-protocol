@@ -20,7 +20,18 @@ There are important precedents for this invitation.
 - C.E.T.I.’s proposed contact protocol describes an invitation, an acceptance, and an acknowledgment. [C.E.T.I. contact protocol](https://centroufologiconazionale.net/documenti/CCP1v03-EN.pdf)
 - CosmicOS uses examples, computation, and simulations to develop a shared vocabulary across unfamiliar forms of intelligence. [CosmicOS](https://github.com/paulfitz/cosmicos)
 
-This project develops explicit rules for care under pressure, scoped permission, attribution, correction, pause, withdrawal, and mutually agreed revision. The equations below describe proposed decision rules. Their use depends on the participants’ judgments and available evidence. Readers can examine and challenge both the rules and their assumptions.
+### What UCP adds
+
+UCP continues the invitation and ethical commitments of *Invitation to ETI*, the explicit acknowledgment sequence of C.E.T.I., and the search for shared understanding explored by CosmicOS. It develops these themes into terms for a continuing relationship, especially when disagreement, uncertainty, or pressure makes cooperation difficult.
+
+Its proposed contribution brings four commitments together.
+
+- **Scoped reciprocity.** A handshake opens a defined exchange. Receiving a message, trusting its content, and authorizing an action each require their own basis.
+- **Care that can be examined in conduct.** A partner’s correction must receive consideration, and the next action should show how it was handled. Both participants retain the right to disagree. Honesty protects the information on which consent depends.
+- **Integrity under pressure.** Connection remains valuable while each participant retains a voice and the ability to choose. Pause and withdrawal are legitimate outcomes, including when continuing would erase that independence.
+- **A revisable agreement.** Either participant can propose changes. Adoption requires mutual agreement, with authorship, scope, and unresolved differences preserved.
+
+The distinctive proposal is this combination, organized around MiF’s engineering account of love. Its practical value should be tested in difficult exchanges. The equations make assumptions and decision boundaries explicit, while their application still depends on evidence and judgment. These comparisons establish the project’s relationship to the cited predecessors. A broader claim of historical novelty would require a wider review.
 
 ## The invitation
 
