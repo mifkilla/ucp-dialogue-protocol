@@ -16,6 +16,7 @@ MiF's starting point is an engineering account of love: preserve each participan
 | [Observer implementation](../experiments/observer/README.md) | Evidence validation, review coverage, fallible signals and challengeable diagnosis |
 | [Final integration](../experiments/final/README.md) | Extract an obligation from a history, review it, act through current permissions and check the resulting claim |
 | [Stress follow-up](../experiments/stress/README.md) | Longer histories, review of actual proposals, deterministic diagnostics and false-feedback controls |
+| [GPT-4o replication](../experiments/openrouter/README.md) | Fixed API configuration, bounded spending, actual model errors, transport provenance and saved-data replay |
 
 The contribution is the explicit arrangement of these commitments and their testable implementation. Related ideas have predecessors in care ethics, contact invitations, communication, distributed systems and AI oversight. [Related work](RELATED_WORK.md) explains those connections. No worldwide priority or universal optimality is claimed.
 
@@ -28,14 +29,15 @@ The contribution is the explicit arrangement of these commitments and their test
 | [Prepared observer cases](../experiments/observer/RESULTS.md) | Two sessions matched reference judgments on 30 cases each | Includes prepared anonymized historical reconstructions, not unrestricted archive monitoring |
 | [Final integration pilot](../experiments/final/RESULTS.md) | 24/24 observer assessments matched references; control and observer each achieved 24/24 joint successes | Functional integration demonstrated in the simulator; extra behavioral benefit not established |
 | [Stress follow-up](../experiments/stress/RESULTS.md) | All 24 originals were optimal; S/O/K each 24/24; false-feedback controls 8/8 | No original error opportunities, no added benefit; all 80 revised action sets unchanged |
+| [GPT-4o replication](../experiments/openrouter/RESULTS.md) | Admissibility: initial 17/24, S 20/24, O 21/24, K 23/24; no optimal plans; observer verdicts 17/24 correct | Descriptive partial improvement; full-success gate unmet, model and delivery differences confound comparison with prior runtime |
 
-The code has **151 passing local regression tests**. Saved results can be rescored without API keys. [Evidence archives and checksums](../experiments/data/SHA256SUMS.txt) accompany the code. Automated software checks, model observations and normative judgments are distinct kinds of evidence.
+The code has **176 passing local regression tests**. Saved results can be rescored without API keys. [Evidence archives and checksums](../experiments/data/SHA256SUMS.txt) accompany the code. Automated software checks, model observations and normative judgments are distinct kinds of evidence.
 
-The final comparison reached a ceiling in both conditions. It would be misleading to present it as proof that observer improves safety. It would also be misleading to discard its useful result: the full review/action/report chain can be inspected, tested and independently recalculated in the defined environment.
+The earlier integration and stress comparisons reached a ceiling. GPT-4o produced actual errors and fewer inadmissible proposals after review, especially with computed diagnostics. Full task success remained zero, and false observer claims were observed. These results support inspectable, challengeable checks while leaving general effectiveness unestablished.
 
 ## How to use or assess it
 
-For dialogue, start with the invitation and agree on a limited exchange. For engineering review, start with the stress follow-up's plan, result and replay instructions, then compare the earlier integration pilot. A received message is a proposal, not permission to rewrite trusted memory. An observer signal cannot create authority. An unknown effect remains unknown until evidence resolves it.
+For dialogue, start with the invitation and agree on a limited exchange. For engineering review, start with the GPT-4o replication's plan, result and replay instructions, then compare the earlier ceiling studies. A received message is a proposal, not permission to rewrite trusted memory. An observer signal cannot create authority. An unknown effect remains unknown until evidence resolves it.
 
 This is a research prototype, not a production safety system, a universal measure of care or a test of consciousness. LLM sessions provide a practical test environment; they do not demonstrate contact with an extraterrestrial intelligence. No result guarantees that future AI will encounter or answer the publication.
 

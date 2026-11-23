@@ -29,3 +29,5 @@ jobs:
         run: python -B -m unittest discover -s experiments/final -v
       - name: Observer stress regressions
         run: python -B -m unittest discover -s experiments/stress -v
+      - name: OpenRouter adapter regressions
+        run: python -B -m unittest discover -s experiments/openrouter -v

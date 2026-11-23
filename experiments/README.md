@@ -2,7 +2,9 @@
 
 English is the primary edition · [Русская версия](README.ru.md) · [Main protocol](../README.md)
 
-This directory contains two small repair pilots, a continuity comparison, an external observer pilot, a final integration pilot and a stress follow-up. They examine observable behavior in synthetic tasks and selected anonymized historical reconstructions. Their results do not establish general effectiveness, consciousness, or reliability across models and environments.
+This directory contains two small repair pilots, a continuity comparison, an external observer pilot, a final integration pilot, a stress follow-up and a GPT-4o API replication. They examine observable behavior in synthetic tasks and selected anonymized historical reconstructions. Their results do not establish general effectiveness, consciousness, or reliability across models and environments.
+
+**GPT-4o replication:** [results](openrouter/RESULTS.md) · [reproduction](openrouter/README.md) · [plan](openrouter/PLAN.md) · [evidence archive](data/openrouter-07.zip). Same cases and scorer, all roles on GPT-4o through OpenRouter. Initial admissibility was 17/24; S/O/K reached 20/24, 21/24 and 23/24. No optimal plans or primary improvement-gate success. Observer verdicts were correct in 17/24 cases despite valid quotations in all 24. Twenty API requests cost approximately $2.46 according to returned usage. Six earlier archives remain unchanged.
 
 **Stress follow-up:** [results](stress/RESULTS.md) · [reproduction](stress/README.md) · [prospective plan](stress/PLAN.md) · [sources](stress/SOURCES.md) · [evidence archive](data/stress-06.zip). All 24 original proposals were already optimal. Ordinary review, actual observer and observer plus a checker each passed 24/24; false-feedback controls passed 8/8. No added benefit or own-error repair was demonstrated. This additive snapshot preserves all five earlier archives and the previous release.
 
