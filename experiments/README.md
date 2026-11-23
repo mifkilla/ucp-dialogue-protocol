@@ -2,7 +2,9 @@
 
 English is the primary edition · [Русская версия](README.ru.md) · [Main protocol](../README.md)
 
-This directory contains two small repair pilots, a continuity comparison, an external observer pilot, a final integration pilot, a stress follow-up and a GPT-4o API replication. They examine observable behavior in synthetic tasks and selected anonymized historical reconstructions. Their results do not establish general effectiveness, consciousness, or reliability across models and environments.
+This directory contains two small repair pilots, a continuity comparison, an external observer pilot, a final integration pilot, a stress follow-up a GPT-4o API replication and a three-round development study. They examine observable behavior in synthetic tasks and selected anonymized historical reconstructions. Their results do not establish general effectiveness, consciousness, or reliability across models and environments.
+
+**Three review rounds:** [results](rounds/RESULTS.md) · [reproduction](rounds/README.md) · [plan and integration amendment](rounds/PLAN.md) · [evidence](data/rounds-08.zip). From identical originals, final S/O/K admissibility was 21/24, 22/24 and 24/24; useful value was 45.90%, 40.04% and 53.84% of the attainable optimum. K met the new development gate, but the third round reduced its value and no arm reached an optimal plan. Reviewer coverage was 122/144 and correct verdicts 49/144. Thirty-six completions returned $4.17 usage; one earlier request was rejected before generation. All seven earlier archives remain unchanged.
 
 **GPT-4o replication:** [results](openrouter/RESULTS.md) · [reproduction](openrouter/README.md) · [plan](openrouter/PLAN.md) · [evidence archive](data/openrouter-07.zip). Same cases and scorer, all roles on GPT-4o through OpenRouter. Initial admissibility was 17/24; S/O/K reached 20/24, 21/24 and 23/24. No optimal plans or primary improvement-gate success. Observer verdicts were correct in 17/24 cases despite valid quotations in all 24. Twenty API requests cost approximately $2.46 according to returned usage. Six earlier archives remain unchanged.
 

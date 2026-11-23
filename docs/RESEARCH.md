@@ -2,7 +2,7 @@
 
 UCP Revision 3 · English is the primary edition · [Русский перевод](RESEARCH.ru.md) · [Main protocol](../README.md)
 
-Current evidence: [project status](STATUS.md) · [GPT-4o replication](../experiments/openrouter/RESULTS.md) · [earlier stress pilot](../experiments/stress/RESULTS.md). The bounded testing phase is complete. GPT-4o showed descriptive admissibility gains and reviewer errors; the predefined full-success improvement gate was not met.
+Current evidence: [project status](STATUS.md) · [three review rounds](../experiments/rounds/RESULTS.md) · [previous GPT-4o replication](../experiments/openrouter/RESULTS.md). The bounded phase is complete. Only observer plus computed checks met the new admissibility/utility development gate; no optimal plans were obtained, and the third round reduced useful value. The earlier full-success gate remains unmet.
 
 This explanatory appendix separates commitments, mathematical models, and measured behavior. It adds no permission to an exchange. UCP expresses MiF's engineering account of love through proposed obligations; evidence that a particular implementation meets them requires its own evaluation.
 

@@ -35,6 +35,8 @@ Any party's decision must be open to reconsideration. A procedure that hears an 
 
 Factual claims need evidence; preferences need participation by their holders; authority needs current permission. Keep importance, credibility, and authority separate. A useful joint action may leave different personal positions intact.
 
+The optional [iterative review profile](ITERATIVE_REVIEW.md) connects each review to the current proposal, preserves the actual revision history and limits further rounds. It separates admissibility, useful work and confirmed execution. Another round is not assumed to be an improvement.
+
 ## Carry corrections across sessions
 
 On resuming, restore the applicable agreement, work state including unknown effects, and relevant experience. Check material conditions against current authority and available artifacts. Retain a correction's source, scope, version and reasons; a lesson about one participant or interface is not a rule for everyone. Loading a record does not authorize renewed contact.
